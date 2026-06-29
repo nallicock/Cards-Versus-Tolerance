@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "text_en": "Everyone wearing socks drinks.",
+    "text_es": "Todos los que llevan calcetines beben.",
+    "category": "regular"
+  },
+  {
+    "id": 2,
+    "text_en": "Everyone wearing black drinks.",
+    "text_es": "Todos los que llevan negro beben.",
+    "category": "regular"
+  },
+  {
+    "id": 3,
+    "text_en": "Everyone wearing white drinks.",
+    "text_es": "Todos los que llevan blanco beben.",
+    "category": "regular"
+  },
+  {
+    "id": 4,
+    "text_en": "Everyone wearing jeans drinks.",
+    "text_es": "Todos los que llevan jeans beben.",
+    "category": "regular"
+  },
+  {
+    "id": 5,
+    "text_en": "Everyone wearing a hat drinks.",
+    "text_es": "Todos los que llevan sombrero beben.",
+    "category": "regular"
+  },
+  {
+    "id": 6,
+    "text_en": "Everyone wearing glasses drinks.",
+    "text_es": "Todos los que llevan lentes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 7,
+    "text_en": "Everyone wearing a hoodie drinks.",
+    "text_es": "Todos los que llevan sudadera beben.",
+    "category": "regular"
+  },
+  {
+    "id": 8,
+    "text_en": "Everyone wearing shorts drinks.",
+    "text_es": "Todos los que llevan shorts beben.",
+    "category": "regular"
+  },
+  {
+    "id": 9,
+    "text_en": "Everyone with long hair drinks.",
+    "text_es": "Todos los de cabello largo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 10,
+    "text_en": "Everyone with short hair drinks.",
+    "text_es": "Todos los de cabello corto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 11,
+    "text_en": "Everyone wearing jewelry drinks.",
+    "text_es": "Todos los que llevan joyas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 12,
+    "text_en": "Everyone wearing a watch drinks.",
+    "text_es": "Todos los que llevan reloj beben.",
+    "category": "regular"
+  },
+  {
+    "id": 13,
+    "text_en": "Everyone wearing sneakers drinks.",
+    "text_es": "Todos los que llevan tenis beben.",
+    "category": "regular"
+  },
+  {
+    "id": 14,
+    "text_en": "Everyone wearing a ring drinks.",
+    "text_es": "Todos los que llevan anillo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 15,
+    "text_en": "Everyone wearing earrings drinks.",
+    "text_es": "Todos los que llevan aretes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 16,
+    "text_en": "Everyone wearing red drinks.",
+    "text_es": "Todos los que llevan rojo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 17,
+    "text_en": "Everyone wearing blue drinks.",
+    "text_es": "Todos los que llevan azul beben.",
+    "category": "regular"
+  },
+  {
+    "id": 18,
+    "text_en": "Everyone in a t-shirt drinks.",
+    "text_es": "Todos los que llevan camiseta beben.",
+    "category": "regular"
+  },
+  {
+    "id": 19,
+    "text_en": "Everyone barefoot drinks.",
+    "text_es": "Todos los que están descalzos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 20,
+    "text_en": "Everyone with a ponytail drinks.",
+    "text_es": "Todos los que tienen cola de caballo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 21,
+    "text_en": "Take 2 sips if you've been to another country.",
+    "text_es": "Toma 2 sorbos si has estado en otro país.",
+    "category": "regular"
+  },
+  {
+    "id": 22,
+    "text_en": "Take a sip for every sibling you have.",
+    "text_es": "Toma un sorbo por cada hermano que tienes.",
+    "category": "regular"
+  },
+  {
+    "id": 23,
+    "text_en": "Whoever checks their phone in the next minute drinks.",
+    "text_es": "El que revise su celular en el próximo minuto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 24,
+    "text_en": "The last person to stand up drinks.",
+    "text_es": "El último en ponerse de pie bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 25,
+    "text_en": "Point to the person you think is most likely to be famous someday — they drink.",
+    "text_es": "Señala a quien crees que algún día será famoso — ese bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 26,
+    "text_en": "The tallest person in the room drinks.",
+    "text_es": "La persona más alta del cuarto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 27,
+    "text_en": "The shortest person in the room drinks.",
+    "text_es": "La persona más baja del cuarto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 28,
+    "text_en": "Everyone who has lied today drinks.",
+    "text_es": "Todos los que han mentido hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 29,
+    "text_en": "Everyone who has cursed today drinks.",
+    "text_es": "Todos los que han maldecido hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 30,
+    "text_en": "Whoever laughs first in the next 30 seconds drinks.",
+    "text_es": "El primero en reírse en los próximos 30 segundos bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 31,
+    "text_en": "Everyone who has sent a text today drinks.",
+    "text_es": "Todos los que han enviado un mensaje hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 32,
+    "text_en": "Everyone who posted on social media today drinks.",
+    "text_es": "Todos los que publicaron en redes hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 33,
+    "text_en": "Whoever spoke last drinks.",
+    "text_es": "El último que habló bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 34,
+    "text_en": "The person to your left drinks.",
+    "text_es": "La persona a tu izquierda bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 35,
+    "text_en": "The person to your right drinks.",
+    "text_es": "La persona a tu derecha bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 36,
+    "text_en": "Everyone who has eaten fast food this week drinks.",
+    "text_es": "Todos los que comieron comida rápida esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 37,
+    "text_en": "The last person to arrive tonight drinks.",
+    "text_es": "El último en llegar esta noche bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 38,
+    "text_en": "The first person to arrive tonight drinks.",
+    "text_es": "El primero en llegar esta noche bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 39,
+    "text_en": "Everyone who has a crush on someone in this room drinks.",
+    "text_es": "Todos los que tienen un crush en alguien del cuarto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 40,
+    "text_en": "Whoever has the most unread messages drinks.",
+    "text_es": "El que tiene más mensajes sin leer bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 41,
+    "text_en": "Never have I ever been arrested — if you have, drink.",
+    "text_es": "Nunca he sido arrestado — si lo has sido, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 42,
+    "text_en": "Never have I ever skipped class — if you have, drink.",
+    "text_es": "Nunca he faltado a clase — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 43,
+    "text_en": "Never have I ever kissed a stranger — if you have, drink.",
+    "text_es": "Nunca he besado a un extraño — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 44,
+    "text_en": "Never have I ever cried at a movie — if you have, drink.",
+    "text_es": "Nunca he llorado en una película — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 45,
+    "text_en": "Never have I ever gone skinny dipping — if you have, drink.",
+    "text_es": "Nunca me he bañado desnudo en público — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 46,
+    "text_en": "Never have I ever lied to get out of work — if you have, drink.",
+    "text_es": "Nunca he mentido para faltar al trabajo — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 47,
+    "text_en": "Never have I ever eaten food off the floor — if you have, drink.",
+    "text_es": "Nunca he comido algo del suelo — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 48,
+    "text_en": "Never have I ever faked being sick — if you have, drink.",
+    "text_es": "Nunca he fingido estar enfermo — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 49,
+    "text_en": "Never have I ever stolen something — if you have, drink.",
+    "text_es": "Nunca he robado algo — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 50,
+    "text_en": "Never have I ever cheated on a test — if you have, drink.",
+    "text_es": "Nunca he hecho trampa en un examen — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 51,
+    "text_en": "Never have I ever been to a music festival — if you have, drink.",
+    "text_es": "Nunca he ido a un festival de música — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 52,
+    "text_en": "Never have I ever had a hangover — if you have, drink.",
+    "text_es": "Nunca he tenido resaca — si la has tenido, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 53,
+    "text_en": "Never have I ever crashed a party — if you have, drink.",
+    "text_es": "Nunca me he colado a una fiesta — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 54,
+    "text_en": "Never have I ever ghosted someone — if you have, drink.",
+    "text_es": "Nunca le he dado ghosting a alguien — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 55,
+    "text_en": "Never have I ever sent a risky text to the wrong person — if you have, drink.",
+    "text_es": "Nunca he enviado un mensaje comprometedor a la persona equivocada — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 56,
+    "text_en": "Never have I ever been kicked out of a place — if you have, drink.",
+    "text_es": "Nunca me han sacado de un lugar — si te ha pasado, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 57,
+    "text_en": "Never have I ever slept through an alarm — if you have, drink.",
+    "text_es": "Nunca me he quedado dormido con una alarma — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 58,
+    "text_en": "Never have I ever dated someone older than me by 5+ years — if you have, drink.",
+    "text_es": "Nunca he salido con alguien mayor que yo por 5+ años — si lo has hecho, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 59,
+    "text_en": "Never have I ever broken a bone — if you have, drink.",
+    "text_es": "Nunca me he roto un hueso — si te ha pasado, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 60,
+    "text_en": "Never have I ever been in a car accident — if you have, drink.",
+    "text_es": "Nunca he estado en un accidente de carro — si te ha pasado, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 61,
+    "text_en": "Do your best impression of someone in this room. If people laugh, they drink.",
+    "text_es": "Haz tu mejor imitación de alguien en el cuarto. Si la gente se ríe, ellos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 62,
+    "text_en": "Speak in an accent for the next 3 rounds or drink.",
+    "text_es": "Habla con acento los próximos 3 turnos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 63,
+    "text_en": "Do 10 push-ups or take 3 sips.",
+    "text_es": "Haz 10 lagartijas o toma 3 sorbos.",
+    "category": "regular"
+  },
+  {
+    "id": 64,
+    "text_en": "Say the alphabet backwards or drink.",
+    "text_es": "Di el abecedario al revés o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 65,
+    "text_en": "Name 5 capitals in 10 seconds or drink.",
+    "text_es": "Nombra 5 capitales en 10 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 66,
+    "text_en": "Sing the chorus of any song or drink.",
+    "text_es": "Canta el coro de cualquier canción o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 67,
+    "text_en": "Do your best dance move or drink.",
+    "text_es": "Haz tu mejor movimiento de baile o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 68,
+    "text_en": "Hold a plank for 20 seconds or drink.",
+    "text_es": "Haz una plancha por 20 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 69,
+    "text_en": "Tell a joke. If nobody laughs, you drink.",
+    "text_es": "Cuenta un chiste. Si nadie se ríe, tú bebes.",
+    "category": "regular"
+  },
+  {
+    "id": 70,
+    "text_en": "Say something nice about every person in the room or drink.",
+    "text_es": "Di algo positivo de cada persona en el cuarto o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 71,
+    "text_en": "Impersonate a celebrity for 1 minute or drink.",
+    "text_es": "Imita a una celebridad por 1 minuto o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 72,
+    "text_en": "Whistle a song and let others guess it or drink twice.",
+    "text_es": "Silba una canción y deja que los demás la adivinen o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 73,
+    "text_en": "Do your best robot dance or drink.",
+    "text_es": "Haz tu mejor baile de robot o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 74,
+    "text_en": "Name 5 countries in 5 seconds or drink.",
+    "text_es": "Nombra 5 países en 5 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 75,
+    "text_en": "Balance something on your head for 30 seconds or drink.",
+    "text_es": "Equilibra algo en tu cabeza por 30 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 76,
+    "text_en": "Recite 3 facts about any animal or drink.",
+    "text_es": "Di 3 datos sobre cualquier animal o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 77,
+    "text_en": "Do 15 jumping jacks or drink.",
+    "text_es": "Haz 15 saltos de tijera o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 78,
+    "text_en": "Speak only in questions for 2 rounds or drink.",
+    "text_es": "Habla solo con preguntas durante 2 turnos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 79,
+    "text_en": "Walk backwards across the room or drink.",
+    "text_es": "Camina de espaldas por el cuarto o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 80,
+    "text_en": "Do your best celebrity impression or drink.",
+    "text_es": "Haz tu mejor imitación de una celebridad o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 81,
+    "text_en": "Everyone who is single drinks.",
+    "text_es": "Todos los que están solteros beben.",
+    "category": "regular"
+  },
+  {
+    "id": 82,
+    "text_en": "Everyone who is in a relationship drinks.",
+    "text_es": "Todos los que están en una relación beben.",
+    "category": "regular"
+  },
+  {
+    "id": 83,
+    "text_en": "Everyone who has a job drinks.",
+    "text_es": "Todos los que tienen trabajo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 84,
+    "text_en": "Everyone who is a student drinks.",
+    "text_es": "Todos los que son estudiantes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 85,
+    "text_en": "Everyone who has a pet drinks.",
+    "text_es": "Todos los que tienen mascota beben.",
+    "category": "regular"
+  },
+  {
+    "id": 86,
+    "text_en": "Everyone who has traveled outside the country drinks.",
+    "text_es": "Todos los que han viajado fuera del país beben.",
+    "category": "regular"
+  },
+  {
+    "id": 87,
+    "text_en": "Everyone born in the summer drinks.",
+    "text_es": "Todos los que nacieron en verano beben.",
+    "category": "regular"
+  },
+  {
+    "id": 88,
+    "text_en": "Everyone born in the winter drinks.",
+    "text_es": "Todos los que nacieron en invierno beben.",
+    "category": "regular"
+  },
+  {
+    "id": 89,
+    "text_en": "Everyone who is an only child drinks.",
+    "text_es": "Todos los hijos únicos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 90,
+    "text_en": "Everyone who is the oldest sibling drinks.",
+    "text_es": "Todos los hermanos mayores beben.",
+    "category": "regular"
+  },
+  {
+    "id": 91,
+    "text_en": "Everyone who is the youngest sibling drinks.",
+    "text_es": "Todos los hermanos menores beben.",
+    "category": "regular"
+  },
+  {
+    "id": 92,
+    "text_en": "Everyone who drives drinks.",
+    "text_es": "Todos los que manejan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 93,
+    "text_en": "Everyone who has a tattoo drinks.",
+    "text_es": "Todos los que tienen tatuaje beben.",
+    "category": "regular"
+  },
+  {
+    "id": 94,
+    "text_en": "Everyone who has a piercing drinks.",
+    "text_es": "Todos los que tienen piercing beben.",
+    "category": "regular"
+  },
+  {
+    "id": 95,
+    "text_en": "Everyone who woke up after noon today drinks.",
+    "text_es": "Todos los que se levantaron después del mediodía hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 96,
+    "text_en": "Everyone who exercised today drinks.",
+    "text_es": "Todos los que hicieron ejercicio hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 97,
+    "text_en": "Everyone who drank coffee today drinks.",
+    "text_es": "Todos los que tomaron café hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 98,
+    "text_en": "Everyone who cooked today drinks.",
+    "text_es": "Todos los que cocinaron hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 99,
+    "text_en": "Everyone who watched TV today drinks.",
+    "text_es": "Todos los que vieron televisión hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 100,
+    "text_en": "Everyone who has been to this city before drinks.",
+    "text_es": "Todos los que han estado en esta ciudad antes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 101,
+    "text_en": "Point to the person most likely to be late to everything — they drink.",
+    "text_es": "Señala a la persona más propensa a llegar tarde a todo — esa bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 102,
+    "text_en": "Point to the funniest person — they drink.",
+    "text_es": "Señala a la persona más chistosa — esa bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 103,
+    "text_en": "Vote for the worst dancer — they drink.",
+    "text_es": "Voten por el peor bailarín — ese bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 104,
+    "text_en": "Point to the most dramatic person — they drink.",
+    "text_es": "Señala a la persona más dramática — esa bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 105,
+    "text_en": "Everyone points to who they think is the biggest flirt — that person drinks.",
+    "text_es": "Todos señalan al que creen que coquetea más — esa persona bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 106,
+    "text_en": "Point to the person most likely to trip and fall — they drink.",
+    "text_es": "Señala a la persona más propensa a tropezarse — esa bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 107,
+    "text_en": "Vote for who would win in an arm wrestle — everyone else drinks.",
+    "text_es": "Voten por quién ganaría un pulso — todos los demás beben.",
+    "category": "regular"
+  },
+  {
+    "id": 108,
+    "text_en": "Point to the most likely to become president — they drink.",
+    "text_es": "Señala al más probable futuro presidente — esa persona bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 109,
+    "text_en": "Whoever gets voted 'best hair' drinks.",
+    "text_es": "El que sea votado como de 'mejor cabello' bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 110,
+    "text_en": "Vote for who would survive a zombie apocalypse longest — everyone else drinks.",
+    "text_es": "Voten por quien sobreviviría más en un apocalipsis zombie — todos los demás beben.",
+    "category": "regular"
+  },
+  {
+    "id": 111,
+    "text_en": "Name the current president of France or drink.",
+    "text_es": "Nombra al actual presidente de Francia o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 112,
+    "text_en": "Name 3 countries in South America in 5 seconds or drink.",
+    "text_es": "Nombra 3 países de Sudamérica en 5 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 113,
+    "text_en": "What is the capital of Australia? Wrong answer means you drink.",
+    "text_es": "¿Cuál es la capital de Australia? Si te equivocas, bebes.",
+    "category": "regular"
+  },
+  {
+    "id": 114,
+    "text_en": "Name 5 US states in 5 seconds or drink.",
+    "text_es": "Nombra 5 estados de EE.UU. en 5 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 115,
+    "text_en": "What year did the Berlin Wall fall? Wrong answer — drink.",
+    "text_es": "¿En qué año cayó el muro de Berlín? Si te equivocas — bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 116,
+    "text_en": "Name 3 Shakespeare plays or drink.",
+    "text_es": "Nombra 3 obras de Shakespeare o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 117,
+    "text_en": "Name the 7 deadly sins or drink one per one you miss.",
+    "text_es": "Nombra los 7 pecados capitales o bebe uno por cada uno que te falte.",
+    "category": "regular"
+  },
+  {
+    "id": 118,
+    "text_en": "Name 4 planets in the solar system in 5 seconds or drink.",
+    "text_es": "Nombra 4 planetas del sistema solar en 5 segundos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 119,
+    "text_en": "What is the tallest mountain in the world? Wrong answer — drink.",
+    "text_es": "¿Cuál es la montaña más alta del mundo? Si te equivocas — bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 120,
+    "text_en": "Name 3 famous painters or drink.",
+    "text_es": "Nombra 3 pintores famosos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 121,
+    "text_en": "Confess something embarrassing or drink twice.",
+    "text_es": "Confiesa algo vergonzoso o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 122,
+    "text_en": "Tell the group your most embarrassing moment or drink.",
+    "text_es": "Cuéntale al grupo tu momento más vergonzoso o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 123,
+    "text_en": "Reveal your most controversial opinion or drink.",
+    "text_es": "Revela tu opinión más controversial o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 124,
+    "text_en": "Admit to something you've done that you're not proud of, or drink twice.",
+    "text_es": "Admite algo que hiciste y de lo que no estás orgulloso, o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 125,
+    "text_en": "Tell the group your biggest fear or drink.",
+    "text_es": "Cuéntale al grupo tu mayor miedo o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 126,
+    "text_en": "Reveal a secret talent or drink.",
+    "text_es": "Revela un talento secreto o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 127,
+    "text_en": "Share the weirdest dream you've had or drink.",
+    "text_es": "Comparte el sueño más raro que hayas tenido o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 128,
+    "text_en": "Confess to your most petty revenge or drink.",
+    "text_es": "Confiesa tu venganza más pequeña o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 129,
+    "text_en": "Tell us about the worst date you've ever been on or drink.",
+    "text_es": "Cuéntanos sobre la peor cita que has tenido o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 130,
+    "text_en": "Tell the group the most childish thing you still do, or drink.",
+    "text_es": "Dile al grupo la cosa más infantil que todavía haces, o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 131,
+    "text_en": "Text the last person you talked to 'we need to talk' — or drink.",
+    "text_es": "Envíale a la última persona con quien hablaste '¿podemos hablar?' — o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 132,
+    "text_en": "Post an embarrassing photo on your story for 1 minute or drink three times.",
+    "text_es": "Publica una foto vergonzosa en tu historia por 1 minuto o bebe tres veces.",
+    "category": "regular"
+  },
+  {
+    "id": 133,
+    "text_en": "Let someone in the group send one text from your phone, or drink.",
+    "text_es": "Deja que alguien del grupo envíe un mensaje desde tu teléfono, o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 134,
+    "text_en": "Show the group your most recent photo in your camera roll, or drink.",
+    "text_es": "Muéstrale al grupo tu foto más reciente en el carrete, o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 135,
+    "text_en": "Let the group read your last text conversation, or drink twice.",
+    "text_es": "Deja que el grupo lea tu última conversación de texto, o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 136,
+    "text_en": "Show the group the last thing you searched on Google, or drink.",
+    "text_es": "Muéstrale al grupo lo último que buscaste en Google, o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 137,
+    "text_en": "Read your most recent DM aloud, or drink.",
+    "text_es": "Lee tu DM más reciente en voz alta, o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 138,
+    "text_en": "Call someone and sing Happy Birthday — or drink.",
+    "text_es": "Llama a alguien y cántale Feliz Cumpleaños — o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 139,
+    "text_en": "Show your screen time stats or drink twice.",
+    "text_es": "Muestra tus estadísticas de tiempo de pantalla o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 140,
+    "text_en": "Let someone go through your camera roll for 10 seconds or drink twice.",
+    "text_es": "Deja que alguien revise tu galería por 10 segundos o bebe dos veces.",
+    "category": "regular"
+  },
+  {
+    "id": 141,
+    "text_en": "Everyone who has been on a blind date drinks.",
+    "text_es": "Todos los que han tenido una cita a ciegas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 142,
+    "text_en": "Everyone who has binge-watched a series in one day drinks.",
+    "text_es": "Todos los que han visto una serie entera en un día beben.",
+    "category": "regular"
+  },
+  {
+    "id": 143,
+    "text_en": "Everyone who has ever been fired drinks.",
+    "text_es": "Todos los que alguna vez han sido despedidos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 144,
+    "text_en": "Everyone who has ever been in a fistfight drinks.",
+    "text_es": "Todos los que alguna vez han estado en una pelea beben.",
+    "category": "regular"
+  },
+  {
+    "id": 145,
+    "text_en": "Everyone who has ever stood someone up drinks.",
+    "text_es": "Todos los que alguna vez han dejado a alguien plantado beben.",
+    "category": "regular"
+  },
+  {
+    "id": 146,
+    "text_en": "Everyone who has ever been stood up drinks.",
+    "text_es": "Todos los que alguna vez han sido plantados beben.",
+    "category": "regular"
+  },
+  {
+    "id": 147,
+    "text_en": "Everyone who has regretted a tattoo drinks.",
+    "text_es": "Todos los que se han arrepentido de un tatuaje beben.",
+    "category": "regular"
+  },
+  {
+    "id": 148,
+    "text_en": "Everyone who has drunk-texted an ex drinks.",
+    "text_es": "Todos los que le han enviado un mensaje borracho a un ex beben.",
+    "category": "regular"
+  },
+  {
+    "id": 149,
+    "text_en": "Everyone who has called in sick when they were fine drinks.",
+    "text_es": "Todos los que se han reportado enfermos estando bien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 150,
+    "text_en": "Everyone who has snooped through someone else's phone drinks.",
+    "text_es": "Todos los que han husmeado en el teléfono de alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 151,
+    "text_en": "Tell two truths and one lie. Everyone who picks the truth (thinking it's a lie) drinks.",
+    "text_es": "Di dos verdades y una mentira. Todos los que escojan la verdad (creyendo que es mentira) beben.",
+    "category": "regular"
+  },
+  {
+    "id": 152,
+    "text_en": "Make a prediction about someone in the room. If it's right, they drink.",
+    "text_es": "Haz una predicción sobre alguien en el cuarto. Si es correcta, esa persona bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 153,
+    "text_en": "Describe yourself in 3 words. Whoever guesses your third word first doesn't drink — everyone else does.",
+    "text_es": "Descríbete en 3 palabras. El que adivine la tercera primero no bebe — todos los demás sí.",
+    "category": "regular"
+  },
+  {
+    "id": 154,
+    "text_en": "Drink once for every year older than 21 you are.",
+    "text_es": "Bebe una vez por cada año mayor de 21 que tengas.",
+    "category": "regular"
+  },
+  {
+    "id": 155,
+    "text_en": "The person who has been awake the longest drinks.",
+    "text_es": "La persona que lleva más tiempo despierta bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 156,
+    "text_en": "The person who lives farthest from here drinks.",
+    "text_es": "La persona que vive más lejos de aquí bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 157,
+    "text_en": "The person with the most Instagram followers drinks.",
+    "text_es": "La persona con más seguidores en Instagram bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 158,
+    "text_en": "The person with the most contacts in their phone drinks.",
+    "text_es": "La persona con más contactos en su teléfono bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 159,
+    "text_en": "The person who has the most apps on their phone drinks.",
+    "text_es": "La persona con más aplicaciones en su teléfono bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 160,
+    "text_en": "The person with the lowest battery on their phone drinks.",
+    "text_es": "La persona con la batería más baja en su teléfono bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 161,
+    "text_en": "Whoever's birthday is closest drinks.",
+    "text_es": "El que tenga el cumpleaños más cercano bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 162,
+    "text_en": "Whoever's birthday is farthest away drinks.",
+    "text_es": "El que tenga el cumpleaños más lejano bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 163,
+    "text_en": "Everyone born on an even day of the month drinks.",
+    "text_es": "Todos los que nacieron en un día par del mes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 164,
+    "text_en": "Everyone born on an odd day of the month drinks.",
+    "text_es": "Todos los que nacieron en un día impar del mes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 165,
+    "text_en": "Everyone whose name starts with a vowel drinks.",
+    "text_es": "Todos cuyo nombre comienza con vocal beben.",
+    "category": "regular"
+  },
+  {
+    "id": 166,
+    "text_en": "Everyone whose name starts with a consonant drinks.",
+    "text_es": "Todos cuyo nombre comienza con consonante beben.",
+    "category": "regular"
+  },
+  {
+    "id": 167,
+    "text_en": "Everyone who has a middle name drinks.",
+    "text_es": "Todos los que tienen segundo nombre beben.",
+    "category": "regular"
+  },
+  {
+    "id": 168,
+    "text_en": "Everyone who doesn't know their blood type drinks.",
+    "text_es": "Todos los que no saben su tipo de sangre beben.",
+    "category": "regular"
+  },
+  {
+    "id": 169,
+    "text_en": "Everyone who can't whistle drinks.",
+    "text_es": "Todos los que no saben silbar beben.",
+    "category": "regular"
+  },
+  {
+    "id": 170,
+    "text_en": "Everyone who can't snap their fingers drinks.",
+    "text_es": "Todos los que no saben chasquear los dedos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 171,
+    "text_en": "Everyone who can't wink drinks.",
+    "text_es": "Todos los que no saben guiñar el ojo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 172,
+    "text_en": "Everyone who talks in their sleep (or has been told they do) drinks.",
+    "text_es": "Todos los que hablan dormidos (o se lo han dicho) beben.",
+    "category": "regular"
+  },
+  {
+    "id": 173,
+    "text_en": "Everyone who snores drinks.",
+    "text_es": "Todos los que roncan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 174,
+    "text_en": "Everyone who has met someone from the internet in person drinks.",
+    "text_es": "Todos los que han conocido en persona a alguien de internet beben.",
+    "category": "regular"
+  },
+  {
+    "id": 175,
+    "text_en": "Everyone who has matched with someone on a dating app drinks.",
+    "text_es": "Todos los que han hecho match en una app de citas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 176,
+    "text_en": "Everyone who has had a long-distance relationship drinks.",
+    "text_es": "Todos los que han tenido una relación a distancia beben.",
+    "category": "regular"
+  },
+  {
+    "id": 177,
+    "text_en": "Everyone who has broken up via text drinks.",
+    "text_es": "Todos los que han terminado una relación por mensaje beben.",
+    "category": "regular"
+  },
+  {
+    "id": 178,
+    "text_en": "Everyone who has kissed their best friend drinks.",
+    "text_es": "Todos los que han besado a su mejor amigo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 179,
+    "text_en": "Everyone who has had a crush on a teacher drinks.",
+    "text_es": "Todos los que se han enamorado de un profesor beben.",
+    "category": "regular"
+  },
+  {
+    "id": 180,
+    "text_en": "Everyone who is currently texting someone drinks.",
+    "text_es": "Todos los que actualmente están enviando mensajes a alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 181,
+    "text_en": "Everyone who has been in love more than once drinks.",
+    "text_es": "Todos los que se han enamorado más de una vez beben.",
+    "category": "regular"
+  },
+  {
+    "id": 182,
+    "text_en": "Everyone who has cried over a relationship drinks.",
+    "text_es": "Todos los que han llorado por una relación beben.",
+    "category": "regular"
+  },
+  {
+    "id": 183,
+    "text_en": "Everyone who has kissed someone in this room drinks.",
+    "text_es": "Todos los que han besado a alguien en este cuarto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 184,
+    "text_en": "Everyone who is vegetarian or vegan drinks.",
+    "text_es": "Todos los que son vegetarianos o veganos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 185,
+    "text_en": "Everyone who has eaten something gross on a dare drinks.",
+    "text_es": "Todos los que han comido algo asqueroso en un reto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 186,
+    "text_en": "Everyone who puts pineapple on pizza drinks.",
+    "text_es": "Todos los que ponen piña en la pizza beben.",
+    "category": "regular"
+  },
+  {
+    "id": 187,
+    "text_en": "Everyone who has tried sushi drinks.",
+    "text_es": "Todos los que han probado el sushi beben.",
+    "category": "regular"
+  },
+  {
+    "id": 188,
+    "text_en": "Everyone who has eaten at a restaurant alone drinks.",
+    "text_es": "Todos los que han comido solos en un restaurante beben.",
+    "category": "regular"
+  },
+  {
+    "id": 189,
+    "text_en": "Everyone who drinks energy drinks drinks.",
+    "text_es": "Todos los que toman bebidas energéticas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 190,
+    "text_en": "Everyone who has eaten a whole pizza by themselves drinks.",
+    "text_es": "Todos los que se han comido una pizza entera solos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 191,
+    "text_en": "Everyone who has drunk straight from a carton drinks.",
+    "text_es": "Todos los que han bebido directo del cartón beben.",
+    "category": "regular"
+  },
+  {
+    "id": 192,
+    "text_en": "Everyone who eats breakfast every day drinks.",
+    "text_es": "Todos los que desayunan todos los días beben.",
+    "category": "regular"
+  },
+  {
+    "id": 193,
+    "text_en": "Everyone who has eaten fast food more than 3 times this week drinks.",
+    "text_es": "Todos los que comieron comida rápida más de 3 veces esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 194,
+    "text_en": "Everyone who has seen all the Marvel movies drinks.",
+    "text_es": "Todos los que han visto todas las películas de Marvel beben.",
+    "category": "regular"
+  },
+  {
+    "id": 195,
+    "text_en": "Everyone who has rewatched a series more than twice drinks.",
+    "text_es": "Todos los que han vuelto a ver una serie más de dos veces beben.",
+    "category": "regular"
+  },
+  {
+    "id": 196,
+    "text_en": "Everyone who has cried watching a Disney movie drinks.",
+    "text_es": "Todos los que han llorado con una película de Disney beben.",
+    "category": "regular"
+  },
+  {
+    "id": 197,
+    "text_en": "Everyone who has read a book for fun this year drinks.",
+    "text_es": "Todos los que han leído un libro por placer este año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 198,
+    "text_en": "Everyone who knows all the words to a rap song drinks.",
+    "text_es": "Todos los que se saben la letra completa de una canción de rap beben.",
+    "category": "regular"
+  },
+  {
+    "id": 199,
+    "text_en": "Everyone who went to a concert in the last year drinks.",
+    "text_es": "Todos los que fueron a un concierto en el último año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 200,
+    "text_en": "Everyone who has been to a karaoke bar drinks.",
+    "text_es": "Todos los que han ido a un bar de karaoke beben.",
+    "category": "regular"
+  },
+  {
+    "id": 201,
+    "text_en": "Everyone who plays video games drinks.",
+    "text_es": "Todos los que juegan videojuegos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 202,
+    "text_en": "Everyone who watches reality TV drinks.",
+    "text_es": "Todos los que ven reality TV beben.",
+    "category": "regular"
+  },
+  {
+    "id": 203,
+    "text_en": "Everyone who has a Spotify playlist over 100 songs drinks.",
+    "text_es": "Todos los que tienen una lista de reproducción de más de 100 canciones beben.",
+    "category": "regular"
+  },
+  {
+    "id": 204,
+    "text_en": "Everyone who has called the wrong person drinks.",
+    "text_es": "Todos los que han llamado a la persona equivocada beben.",
+    "category": "regular"
+  },
+  {
+    "id": 205,
+    "text_en": "Everyone who has fallen asleep in public drinks.",
+    "text_es": "Todos los que se han quedado dormidos en público beben.",
+    "category": "regular"
+  },
+  {
+    "id": 206,
+    "text_en": "Everyone who has gotten lost in a city drinks.",
+    "text_es": "Todos los que se han perdido en una ciudad beben.",
+    "category": "regular"
+  },
+  {
+    "id": 207,
+    "text_en": "Everyone who has accidentally walked into a wrong room drinks.",
+    "text_es": "Todos los que han entrado accidentalmente al cuarto equivocado beben.",
+    "category": "regular"
+  },
+  {
+    "id": 208,
+    "text_en": "Everyone who has talked to themselves today drinks.",
+    "text_es": "Todos los que se han hablado a sí mismos hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 209,
+    "text_en": "Everyone who has tripped in public drinks.",
+    "text_es": "Todos los que se han tropezado en público beben.",
+    "category": "regular"
+  },
+  {
+    "id": 210,
+    "text_en": "Everyone who has gotten a noise complaint drinks.",
+    "text_es": "Todos los que han recibido una queja de ruido beben.",
+    "category": "regular"
+  },
+  {
+    "id": 211,
+    "text_en": "Everyone who has had food delivered more than 3 times this week drinks.",
+    "text_es": "Todos los que han pedido comida a domicilio más de 3 veces esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 212,
+    "text_en": "Everyone who has sleepwalked drinks.",
+    "text_es": "Todos los que han dormido sonámbulos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 213,
+    "text_en": "Everyone who has had a weird recurring dream drinks.",
+    "text_es": "Todos los que han tenido un sueño raro recurrente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 214,
+    "text_en": "Drink 2 sips if you've ever pulled an all-nighter.",
+    "text_es": "Toma 2 sorbos si alguna vez has trasnochado sin dormir.",
+    "category": "regular"
+  },
+  {
+    "id": 215,
+    "text_en": "Drink 2 sips if you've ever lied about your age.",
+    "text_es": "Toma 2 sorbos si alguna vez has mentido sobre tu edad.",
+    "category": "regular"
+  },
+  {
+    "id": 216,
+    "text_en": "Drink 2 sips if you've ever pretended to be busy to avoid plans.",
+    "text_es": "Toma 2 sorbos si alguna vez has fingido estar ocupado para cancelar planes.",
+    "category": "regular"
+  },
+  {
+    "id": 217,
+    "text_en": "Drink 3 sips if you've ever been catfished.",
+    "text_es": "Toma 3 sorbos si alguna vez te han hecho catfishing.",
+    "category": "regular"
+  },
+  {
+    "id": 218,
+    "text_en": "Drink 2 sips if you've ever peed in a pool.",
+    "text_es": "Toma 2 sorbos si alguna vez has orinado en una alberca.",
+    "category": "regular"
+  },
+  {
+    "id": 219,
+    "text_en": "Drink 2 sips if you've ever fainted.",
+    "text_es": "Toma 2 sorbos si alguna vez te has desmayado.",
+    "category": "regular"
+  },
+  {
+    "id": 220,
+    "text_en": "Drink 3 sips if you've ever been on TV.",
+    "text_es": "Toma 3 sorbos si alguna vez has salido en televisión.",
+    "category": "regular"
+  },
+  {
+    "id": 221,
+    "text_en": "Drink 2 sips if you've ever run a red light.",
+    "text_es": "Toma 2 sorbos si alguna vez te has pasado un semáforo en rojo.",
+    "category": "regular"
+  },
+  {
+    "id": 222,
+    "text_en": "Drink 2 sips if you've ever eaten cold pizza for breakfast.",
+    "text_es": "Toma 2 sorbos si alguna vez has comido pizza fría para desayunar.",
+    "category": "regular"
+  },
+  {
+    "id": 223,
+    "text_en": "Drink 2 sips if you've ever regifted a present.",
+    "text_es": "Toma 2 sorbos si alguna vez has reegalado un regalo.",
+    "category": "regular"
+  },
+  {
+    "id": 224,
+    "text_en": "Give 2 sips to whoever is sitting across from you.",
+    "text_es": "Dale 2 sorbos a quien esté sentado frente a ti.",
+    "category": "regular"
+  },
+  {
+    "id": 225,
+    "text_en": "Give 3 sips to the person you think has had the most drinks tonight.",
+    "text_es": "Dale 3 sorbos a la persona que crees que ha bebido más esta noche.",
+    "category": "regular"
+  },
+  {
+    "id": 226,
+    "text_en": "Take 1 sip and give 2 to anyone wearing the same color as you.",
+    "text_es": "Toma 1 sorbo y da 2 a alguien que lleve el mismo color que tú.",
+    "category": "regular"
+  },
+  {
+    "id": 227,
+    "text_en": "Give 2 sips to the person who made you laugh last.",
+    "text_es": "Dale 2 sorbos a la persona que te hizo reír por última vez.",
+    "category": "regular"
+  },
+  {
+    "id": 228,
+    "text_en": "Give 3 sips to whoever you'd least expect to see at a party.",
+    "text_es": "Dale 3 sorbos a quien menos esperarías ver en una fiesta.",
+    "category": "regular"
+  },
+  {
+    "id": 229,
+    "text_en": "Give 1 sip to the person on your left and 1 to the person on your right.",
+    "text_es": "Dale 1 sorbo a la persona a tu izquierda y 1 a la de tu derecha.",
+    "category": "regular"
+  },
+  {
+    "id": 230,
+    "text_en": "Give 4 sips to the most recently in a relationship person.",
+    "text_es": "Dale 4 sorbos a la persona que entró más recientemente en una relación.",
+    "category": "regular"
+  },
+  {
+    "id": 231,
+    "text_en": "Give 2 sips to whoever you think will be the last to leave tonight.",
+    "text_es": "Dale 2 sorbos a quien crees que será el último en irse esta noche.",
+    "category": "regular"
+  },
+  {
+    "id": 232,
+    "text_en": "Give 3 sips to whoever you think is having the most fun right now.",
+    "text_es": "Dale 3 sorbos a quien crees que se está divirtiendo más ahora mismo.",
+    "category": "regular"
+  },
+  {
+    "id": 233,
+    "text_en": "Take 3 sips and give 1 to your favorite person in the room.",
+    "text_es": "Toma 3 sorbos y da 1 a tu persona favorita en el cuarto.",
+    "category": "regular"
+  },
+  {
+    "id": 234,
+    "text_en": "No one can say 'drink' for the next 3 rounds. If you do, you drink.",
+    "text_es": "Nadie puede decir 'bebe' durante los próximos 3 turnos. Si lo dices, bebes.",
+    "category": "regular"
+  },
+  {
+    "id": 235,
+    "text_en": "Everyone must refer to themselves in the third person for 2 rounds or drink.",
+    "text_es": "Todos deben referirse a sí mismos en tercera persona durante 2 turnos o beben.",
+    "category": "regular"
+  },
+  {
+    "id": 236,
+    "text_en": "You may not point at anything for the next 2 rounds. If you do, drink.",
+    "text_es": "No puedes señalar nada durante los próximos 2 turnos. Si lo haces, bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 237,
+    "text_en": "No one can say the word 'no' for 2 rounds. Violators drink.",
+    "text_es": "Nadie puede decir 'no' durante 2 turnos. Los infractores beben.",
+    "category": "regular"
+  },
+  {
+    "id": 238,
+    "text_en": "Everyone must end every sentence with 'I think' for 2 rounds or drink.",
+    "text_es": "Todos deben terminar cada oración con 'creo yo' durante 2 turnos o beben.",
+    "category": "regular"
+  },
+  {
+    "id": 239,
+    "text_en": "Everyone must speak in a whisper for 2 rounds or drink.",
+    "text_es": "Todos deben hablar en susurros durante 2 turnos o beben.",
+    "category": "regular"
+  },
+  {
+    "id": 240,
+    "text_en": "No one is allowed to use their dominant hand for the next 2 rounds or drink.",
+    "text_es": "Nadie puede usar su mano dominante durante los próximos 2 turnos o bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 241,
+    "text_en": "No one can use names for 2 rounds — point only. Mess up? Drink.",
+    "text_es": "Nadie puede usar nombres durante 2 turnos — solo señala. ¿Te equivocas? Bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 242,
+    "text_en": "Everyone must stand up to speak for the next 2 rounds or drink.",
+    "text_es": "Todos deben ponerse de pie para hablar durante los próximos 2 turnos o beben.",
+    "category": "regular"
+  },
+  {
+    "id": 243,
+    "text_en": "You must bow before taking a sip for the next 2 rounds or drink extra.",
+    "text_es": "Debes hacer una reverencia antes de beber durante los próximos 2 turnos o bebe extra.",
+    "category": "regular"
+  },
+  {
+    "id": 244,
+    "text_en": "Oldest person in the room drinks.",
+    "text_es": "La persona mayor del cuarto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 245,
+    "text_en": "Youngest person in the room drinks.",
+    "text_es": "La persona más joven del cuarto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 246,
+    "text_en": "Everyone who has a piercing above the neck drinks.",
+    "text_es": "Todos los que tienen un piercing sobre el cuello beben.",
+    "category": "regular"
+  },
+  {
+    "id": 247,
+    "text_en": "Everyone who is wearing a bra drinks.",
+    "text_es": "Todos los que llevan brasier beben.",
+    "category": "regular"
+  },
+  {
+    "id": 248,
+    "text_en": "Everyone who forgot someone's birthday this year drinks.",
+    "text_es": "Todos los que olvidaron el cumpleaños de alguien este año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 249,
+    "text_en": "Everyone who has accidentally liked an old photo while stalking someone drinks.",
+    "text_es": "Todos los que accidentalmente han dado like en una foto vieja curioseando a alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 250,
+    "text_en": "Everyone who has texted someone who was in the same room drinks.",
+    "text_es": "Todos los que le han mandado mensaje a alguien que estaba en el mismo cuarto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 251,
+    "text_en": "Everyone who has pretended to laugh at a joke they didn't get drinks.",
+    "text_es": "Todos los que han fingido reírse de un chiste que no entendieron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 252,
+    "text_en": "Everyone who still sleeps with a stuffed animal drinks.",
+    "text_es": "Todos los que todavía duermen con un peluche beben.",
+    "category": "regular"
+  },
+  {
+    "id": 253,
+    "text_en": "Everyone who is afraid of the dark drinks.",
+    "text_es": "Todos los que le temen a la oscuridad beben.",
+    "category": "regular"
+  },
+  {
+    "id": 254,
+    "text_en": "Everyone who has talked to an imaginary friend as a kid drinks.",
+    "text_es": "Todos los que tuvieron un amigo imaginario de niños beben.",
+    "category": "regular"
+  },
+  {
+    "id": 255,
+    "text_en": "Everyone who has re-read a text over 5 times before sending drinks.",
+    "text_es": "Todos los que han releído un mensaje más de 5 veces antes de enviarlo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 256,
+    "text_en": "Everyone who has cried in the shower drinks.",
+    "text_es": "Todos los que han llorado en la ducha beben.",
+    "category": "regular"
+  },
+  {
+    "id": 257,
+    "text_en": "Everyone who forgets why they walked into a room drinks.",
+    "text_es": "Todos los que olvidan por qué entraron a un cuarto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 258,
+    "text_en": "Everyone who still uses their childhood email address drinks.",
+    "text_es": "Todos los que aún usan su correo electrónico de la infancia beben.",
+    "category": "regular"
+  },
+  {
+    "id": 259,
+    "text_en": "Everyone who has woken up on the wrong side of the bed today drinks.",
+    "text_es": "Todos los que se levantaron con el pie izquierdo hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 260,
+    "text_en": "Everyone who has ever been called the 'mom' or 'dad' of the friend group drinks.",
+    "text_es": "Todos los que alguna vez han sido llamados la 'mamá' o el 'papá' del grupo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 261,
+    "text_en": "Everyone who processes feelings by avoiding them drinks.",
+    "text_es": "Todos los que procesan sus sentimientos evitándolos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 262,
+    "text_en": "Everyone who has stayed in a bad situation way too long drinks.",
+    "text_es": "Todos los que se quedaron en una mala situación por demasiado tiempo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 263,
+    "text_en": "Everyone who has stress-eaten today drinks.",
+    "text_es": "Todos los que comieron por estrés hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 264,
+    "text_en": "The person who took the longest to get ready tonight drinks.",
+    "text_es": "La persona que tardó más en arreglarse esta noche bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 265,
+    "text_en": "Everyone who checks their email on weekends drinks.",
+    "text_es": "Todos los que revisan su correo los fines de semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 266,
+    "text_en": "Everyone who has bought something they've never used drinks.",
+    "text_es": "Todos los que han comprado algo que nunca usaron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 267,
+    "text_en": "Everyone who still uses Facebook drinks.",
+    "text_es": "Todos los que todavía usan Facebook beben.",
+    "category": "regular"
+  },
+  {
+    "id": 268,
+    "text_en": "Everyone who has a Snapchat streak drinks.",
+    "text_es": "Todos los que tienen una racha de Snapchat beben.",
+    "category": "regular"
+  },
+  {
+    "id": 269,
+    "text_en": "Everyone who has ghosted a friend group drinks.",
+    "text_es": "Todos los que le han dado ghosting a un grupo de amigos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 270,
+    "text_en": "Everyone who forgets to drink water daily drinks.",
+    "text_es": "Todos los que olvidan tomar agua diariamente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 271,
+    "text_en": "Everyone who has cried watching a commercial drinks.",
+    "text_es": "Todos los que han llorado viendo un comercial beben.",
+    "category": "regular"
+  },
+  {
+    "id": 272,
+    "text_en": "Everyone who has ordered food just for the sides drinks.",
+    "text_es": "Todos los que han pedido comida solo por los acompañamientos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 273,
+    "text_en": "Everyone who has stayed up past 3am this week drinks.",
+    "text_es": "Todos los que se quedaron despiertos hasta las 3am esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 274,
+    "text_en": "Everyone who knows their horoscope sign but also reads it drinks.",
+    "text_es": "Todos los que saben su signo del horóscopo y además lo leen beben.",
+    "category": "regular"
+  },
+  {
+    "id": 275,
+    "text_en": "Everyone who believes in ghosts drinks.",
+    "text_es": "Todos los que creen en fantasmas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 276,
+    "text_en": "Everyone who has been on a roller coaster drinks.",
+    "text_es": "Todos los que han montado en una montaña rusa beben.",
+    "category": "regular"
+  },
+  {
+    "id": 277,
+    "text_en": "Everyone who has gone camping drinks.",
+    "text_es": "Todos los que han ido de campamento beben.",
+    "category": "regular"
+  },
+  {
+    "id": 278,
+    "text_en": "Everyone who has been in a swimming pool in the last week drinks.",
+    "text_es": "Todos los que han estado en una alberca en la última semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 279,
+    "text_en": "Everyone who has a gym membership they rarely use drinks.",
+    "text_es": "Todos los que tienen una membresía de gimnasio que casi no usan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 280,
+    "text_en": "Everyone who owns more than 5 pairs of shoes drinks.",
+    "text_es": "Todos los que tienen más de 5 pares de zapatos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 281,
+    "text_en": "Everyone who has binged junk food while watching Netflix drinks.",
+    "text_es": "Todos los que han comido chatarra viendo Netflix beben.",
+    "category": "regular"
+  },
+  {
+    "id": 282,
+    "text_en": "Everyone who has forgotten a word mid-sentence today drinks.",
+    "text_es": "Todos los que se han olvidado de una palabra a mitad de una oración hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 283,
+    "text_en": "Everyone who has been to a concert drinks.",
+    "text_es": "Todos los que han ido a un concierto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 284,
+    "text_en": "Everyone who owns a plant drinks.",
+    "text_es": "Todos los que tienen una planta beben.",
+    "category": "regular"
+  },
+  {
+    "id": 285,
+    "text_en": "Everyone who has a pet over 5 years old drinks.",
+    "text_es": "Todos los que tienen una mascota de más de 5 años beben.",
+    "category": "regular"
+  },
+  {
+    "id": 286,
+    "text_en": "Everyone who can name all the planets in order drinks — others drink.",
+    "text_es": "Todos los que pueden nombrar todos los planetas en orden beben — los demás también.",
+    "category": "regular"
+  },
+  {
+    "id": 287,
+    "text_en": "Whoever's ringtone is a default sound drinks.",
+    "text_es": "El que tiene un sonido predeterminado como tono de llamada bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 288,
+    "text_en": "Everyone who has gone more than 3 days without showering drinks.",
+    "text_es": "Todos los que han pasado más de 3 días sin bañarse beben.",
+    "category": "regular"
+  },
+  {
+    "id": 289,
+    "text_en": "Everyone who has danced alone in their room this week drinks.",
+    "text_es": "Todos los que han bailado solos en su cuarto esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 290,
+    "text_en": "Everyone who has accidentally called someone 'mom' or 'dad' who isn't their parent drinks.",
+    "text_es": "Todos los que accidentalmente llamaron 'mamá' o 'papá' a alguien que no es su madre/padre beben.",
+    "category": "regular"
+  },
+  {
+    "id": 291,
+    "text_en": "Everyone who has fallen asleep during a movie drinks.",
+    "text_es": "Todos los que se han quedado dormidos durante una película beben.",
+    "category": "regular"
+  },
+  {
+    "id": 292,
+    "text_en": "Everyone who has pretended to be on the phone to avoid someone drinks.",
+    "text_es": "Todos los que han fingido hablar por teléfono para evitar a alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 293,
+    "text_en": "Everyone who has eaten ice cream straight from the container drinks.",
+    "text_es": "Todos los que han comido helado directo del recipiente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 294,
+    "text_en": "Everyone who has binge-watched more than 5 episodes in one sitting this week drinks.",
+    "text_es": "Todos los que han visto más de 5 episodios seguidos en una sentada esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 295,
+    "text_en": "Everyone who can do the splits drinks — everyone else drinks.",
+    "text_es": "Todos los que pueden hacer los splits beben — todos los demás también.",
+    "category": "regular"
+  },
+  {
+    "id": 296,
+    "text_en": "Everyone who has ever dyed their hair drinks.",
+    "text_es": "Todos los que alguna vez se han teñido el cabello beben.",
+    "category": "regular"
+  },
+  {
+    "id": 297,
+    "text_en": "Everyone who has ever had braces drinks.",
+    "text_es": "Todos los que alguna vez han tenido frenillos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 298,
+    "text_en": "Everyone who knows how to play a musical instrument drinks.",
+    "text_es": "Todos los que saben tocar un instrumento musical beben.",
+    "category": "regular"
+  },
+  {
+    "id": 299,
+    "text_en": "Everyone who has ever been in a play or theater production drinks.",
+    "text_es": "Todos los que alguna vez han estado en una obra de teatro beben.",
+    "category": "regular"
+  },
+  {
+    "id": 300,
+    "text_en": "Everyone who has ever been camping in the wild drinks.",
+    "text_es": "Todos los que alguna vez han acampado en la naturaleza beben.",
+    "category": "regular"
+  },
+  {
+    "id": 301,
+    "text_en": "Everyone who has made a New Year's resolution they broke drinks.",
+    "text_es": "Todos los que han hecho un propósito de Año Nuevo que no cumplieron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 302,
+    "text_en": "Everyone who has traveled internationally in the past year drinks.",
+    "text_es": "Todos los que han viajado al extranjero en el último año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 303,
+    "text_en": "Everyone who has ever been in a hot tub drinks.",
+    "text_es": "Todos los que alguna vez han estado en un jacuzzi beben.",
+    "category": "regular"
+  },
+  {
+    "id": 304,
+    "text_en": "Everyone who has ever ridden a horse drinks.",
+    "text_es": "Todos los que alguna vez han montado a caballo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 305,
+    "text_en": "Everyone who has been in a helicopter or small plane drinks.",
+    "text_es": "Todos los que han estado en un helicóptero o avión pequeño beben.",
+    "category": "regular"
+  },
+  {
+    "id": 306,
+    "text_en": "Everyone who has jumped off a cliff or high dive drinks.",
+    "text_es": "Todos los que han saltado desde un acantilado o trampolín alto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 307,
+    "text_en": "Everyone who has gone more than 24 hours without sleeping drinks.",
+    "text_es": "Todos los que han estado más de 24 horas sin dormir beben.",
+    "category": "regular"
+  },
+  {
+    "id": 308,
+    "text_en": "Everyone who has been in a physical fight as an adult drinks.",
+    "text_es": "Todos los que han tenido una pelea física siendo adultos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 309,
+    "text_en": "Everyone who has won a trophy or medal drinks.",
+    "text_es": "Todos los que han ganado un trofeo o medalla beben.",
+    "category": "regular"
+  },
+  {
+    "id": 310,
+    "text_en": "Everyone who has been to a wedding this year drinks.",
+    "text_es": "Todos los que han ido a una boda este año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 311,
+    "text_en": "Everyone who has caught a fish drinks.",
+    "text_es": "Todos los que han pescado un pez beben.",
+    "category": "regular"
+  },
+  {
+    "id": 312,
+    "text_en": "Everyone who has run a 5K or more drinks.",
+    "text_es": "Todos los que han corrido un 5K o más beben.",
+    "category": "regular"
+  },
+  {
+    "id": 313,
+    "text_en": "Everyone who has tried a sport they were terrible at drinks.",
+    "text_es": "Todos los que han intentado un deporte en el que eran pésimos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 314,
+    "text_en": "Everyone who has played truth or dare before tonight drinks.",
+    "text_es": "Todos los que han jugado verdad o reto antes de esta noche beben.",
+    "category": "regular"
+  },
+  {
+    "id": 315,
+    "text_en": "Everyone who has played spin the bottle drinks.",
+    "text_es": "Todos los que han jugado a la botella beben.",
+    "category": "regular"
+  },
+  {
+    "id": 316,
+    "text_en": "Everyone who has won at poker drinks.",
+    "text_es": "Todos los que han ganado en el póker beben.",
+    "category": "regular"
+  },
+  {
+    "id": 317,
+    "text_en": "Everyone who can name 5 card games drinks — others drink.",
+    "text_es": "Todos los que pueden nombrar 5 juegos de cartas beben — los demás también.",
+    "category": "regular"
+  },
+  {
+    "id": 318,
+    "text_en": "Everyone who has played a video game today drinks.",
+    "text_es": "Todos los que han jugado un videojuego hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 319,
+    "text_en": "Everyone who has pulled a prank on someone drinks.",
+    "text_es": "Todos los que le han gastado una broma a alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 320,
+    "text_en": "Everyone who has been pranked today drinks.",
+    "text_es": "Todos los que han recibido una broma hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 321,
+    "text_en": "Everyone who has cried today drinks.",
+    "text_es": "Todos los que han llorado hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 322,
+    "text_en": "Everyone who has laughed until they cried drinks.",
+    "text_es": "Todos los que han reído hasta llorar beben.",
+    "category": "regular"
+  },
+  {
+    "id": 323,
+    "text_en": "Everyone who has an embarrassing photo still saved drinks.",
+    "text_es": "Todos los que tienen una foto vergonzosa aún guardada beben.",
+    "category": "regular"
+  },
+  {
+    "id": 324,
+    "text_en": "Everyone who has worn their clothes two days in a row drinks.",
+    "text_es": "Todos los que han usado la misma ropa dos días seguidos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 325,
+    "text_en": "Everyone who has re-worn a swimsuit without washing it drinks.",
+    "text_es": "Todos los que han vuelto a usar un traje de baño sin lavarlo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 326,
+    "text_en": "Everyone who still has texts from an ex drinks.",
+    "text_es": "Todos los que aún tienen mensajes de texto de un ex beben.",
+    "category": "regular"
+  },
+  {
+    "id": 327,
+    "text_en": "Everyone who still follows their ex on social media drinks.",
+    "text_es": "Todos los que aún siguen a su ex en redes sociales beben.",
+    "category": "regular"
+  },
+  {
+    "id": 328,
+    "text_en": "Everyone who has looked up their own name online drinks.",
+    "text_es": "Todos los que han buscado su propio nombre en internet beben.",
+    "category": "regular"
+  },
+  {
+    "id": 329,
+    "text_en": "Everyone who has sent an accidental voice note drinks.",
+    "text_es": "Todos los que han enviado una nota de voz accidental beben.",
+    "category": "regular"
+  },
+  {
+    "id": 330,
+    "text_en": "Everyone who talks to their pets like they're human drinks.",
+    "text_es": "Todos los que hablan con sus mascotas como si fueran humanos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 331,
+    "text_en": "Everyone who has apologized for something they didn't do drinks.",
+    "text_es": "Todos los que se han disculpado por algo que no hicieron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 332,
+    "text_en": "Everyone who has made an impulse purchase this week drinks.",
+    "text_es": "Todos los que han hecho una compra impulsiva esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 333,
+    "text_en": "Everyone who still watches cartoons drinks.",
+    "text_es": "Todos los que todavía ven caricaturas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 334,
+    "text_en": "Everyone who has a lucky charm or superstition drinks.",
+    "text_es": "Todos los que tienen un amuleto de la suerte o superstición beben.",
+    "category": "regular"
+  },
+  {
+    "id": 335,
+    "text_en": "Everyone who has jumped into a body of water fully clothed drinks.",
+    "text_es": "Todos los que han saltado a un cuerpo de agua completamente vestidos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 336,
+    "text_en": "Everyone who has sneezed more than 5 times in a row drinks.",
+    "text_es": "Todos los que han estornudado más de 5 veces seguidas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 337,
+    "text_en": "Everyone who has gotten a sunburn this year drinks.",
+    "text_es": "Todos los que se han quemado con el sol este año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 338,
+    "text_en": "Everyone who has accidentally snorted while laughing drinks.",
+    "text_es": "Todos los que han bufado accidentalmente mientras se reían beben.",
+    "category": "regular"
+  },
+  {
+    "id": 339,
+    "text_en": "Everyone who has sung in a car today drinks.",
+    "text_es": "Todos los que han cantado en un carro hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 340,
+    "text_en": "Everyone who has lip-synced to a song in the mirror drinks.",
+    "text_es": "Todos los que han sincronizado labios frente al espejo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 341,
+    "text_en": "Everyone who has made a TikTok drinks.",
+    "text_es": "Todos los que han hecho un TikTok beben.",
+    "category": "regular"
+  },
+  {
+    "id": 342,
+    "text_en": "Everyone who has more than 3 social media accounts drinks.",
+    "text_es": "Todos los que tienen más de 3 cuentas en redes sociales beben.",
+    "category": "regular"
+  },
+  {
+    "id": 343,
+    "text_en": "Everyone who has paid for a premium subscription they forgot about drinks.",
+    "text_es": "Todos los que han pagado por una suscripción premium que olvidaron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 344,
+    "text_en": "Everyone who has re-watched a comfort show this month drinks.",
+    "text_es": "Todos los que han vuelto a ver una serie de consuelo este mes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 345,
+    "text_en": "Everyone who has eaten chips in bed drinks.",
+    "text_es": "Todos los que han comido papas fritas en la cama beben.",
+    "category": "regular"
+  },
+  {
+    "id": 346,
+    "text_en": "Everyone who has dropped their phone in water drinks.",
+    "text_es": "Todos los que han dejado caer su teléfono en el agua beben.",
+    "category": "regular"
+  },
+  {
+    "id": 347,
+    "text_en": "Everyone who has lost their keys this week drinks.",
+    "text_es": "Todos los que han perdido sus llaves esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 348,
+    "text_en": "Everyone who has forgotten where they parked drinks.",
+    "text_es": "Todos los que han olvidado dónde estacionaron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 349,
+    "text_en": "Everyone who has gotten lost following GPS directions drinks.",
+    "text_es": "Todos los que se han perdido siguiendo el GPS beben.",
+    "category": "regular"
+  },
+  {
+    "id": 350,
+    "text_en": "Everyone who has waved back at someone who wasn't waving at them drinks.",
+    "text_es": "Todos los que han devuelto el saludo a alguien que no los estaba saludando beben.",
+    "category": "regular"
+  },
+  {
+    "id": 351,
+    "text_en": "Everyone who has mispronounced a word in public drinks.",
+    "text_es": "Todos los que han pronunciado mal una palabra en público beben.",
+    "category": "regular"
+  },
+  {
+    "id": 352,
+    "text_en": "Everyone who has called a teacher 'mom' or 'dad' by accident drinks.",
+    "text_es": "Todos los que han llamado 'mamá' o 'papá' a un maestro por accidente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 353,
+    "text_en": "Everyone who has bragged about something they actually can't do drinks.",
+    "text_es": "Todos los que han presumido algo que en realidad no saben hacer beben.",
+    "category": "regular"
+  },
+  {
+    "id": 354,
+    "text_en": "Everyone who has faked knowing a movie they haven't seen drinks.",
+    "text_es": "Todos los que han fingido conocer una película que no han visto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 355,
+    "text_en": "Everyone who still uses a physical alarm clock drinks.",
+    "text_es": "Todos los que todavía usan un despertador físico beben.",
+    "category": "regular"
+  },
+  {
+    "id": 356,
+    "text_en": "Everyone who has slept through an entire weekend drinks.",
+    "text_es": "Todos los que han dormido todo un fin de semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 357,
+    "text_en": "Everyone who has ever sleepwalked or been told they talk in their sleep drinks.",
+    "text_es": "Todos los que han caminado dormidos o les han dicho que hablan dormidos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 358,
+    "text_en": "Everyone who sets more than 3 alarms to wake up drinks.",
+    "text_es": "Todos los que ponen más de 3 alarmas para despertarse beben.",
+    "category": "regular"
+  },
+  {
+    "id": 359,
+    "text_en": "Everyone who has hit snooze more than 3 times today drinks.",
+    "text_es": "Todos los que le dieron a 'posponer' más de 3 veces hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 360,
+    "text_en": "Everyone who has a 'bedtime' they actually follow drinks.",
+    "text_es": "Todos los que tienen una 'hora de dormir' que realmente siguen beben.",
+    "category": "regular"
+  },
+  {
+    "id": 361,
+    "text_en": "Everyone who has pulled an all-nighter in the last month drinks.",
+    "text_es": "Todos los que han trasnochado en el último mes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 362,
+    "text_en": "Everyone who dreams in color drinks.",
+    "text_es": "Todos los que sueñan en color beben.",
+    "category": "regular"
+  },
+  {
+    "id": 363,
+    "text_en": "Everyone who has nightmares regularly drinks.",
+    "text_es": "Todos los que tienen pesadillas regularmente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 364,
+    "text_en": "Everyone who keeps a journal or diary drinks.",
+    "text_es": "Todos los que tienen un diario o bitácora beben.",
+    "category": "regular"
+  },
+  {
+    "id": 365,
+    "text_en": "Everyone who writes to-do lists but never finishes them drinks.",
+    "text_es": "Todos los que hacen listas de pendientes pero nunca las terminan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 366,
+    "text_en": "Everyone who has more than 1,000 photos on their phone drinks.",
+    "text_es": "Todos los que tienen más de 1,000 fotos en su teléfono beben.",
+    "category": "regular"
+  },
+  {
+    "id": 367,
+    "text_en": "Everyone who still has photos from 3+ years ago on their phone drinks.",
+    "text_es": "Todos los que todavía tienen fotos de hace 3+ años en su teléfono beben.",
+    "category": "regular"
+  },
+  {
+    "id": 368,
+    "text_en": "Everyone whose camera roll is 80% food photos drinks.",
+    "text_es": "Todos cuyo carrete es 80% fotos de comida beben.",
+    "category": "regular"
+  },
+  {
+    "id": 369,
+    "text_en": "Everyone who screenshots memes daily drinks.",
+    "text_es": "Todos los que capturan memes diariamente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 370,
+    "text_en": "Everyone who sends memes instead of actually texting drinks.",
+    "text_es": "Todos los que mandan memes en lugar de realmente escribir mensajes beben.",
+    "category": "regular"
+  },
+  {
+    "id": 371,
+    "text_en": "Everyone who has used a GIF as a response today drinks.",
+    "text_es": "Todos los que han usado un GIF como respuesta hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 372,
+    "text_en": "Everyone who has more than 50 unread emails drinks.",
+    "text_es": "Todos los que tienen más de 50 correos sin leer beben.",
+    "category": "regular"
+  },
+  {
+    "id": 373,
+    "text_en": "Everyone who has accidentally replied-all to an email drinks.",
+    "text_es": "Todos los que han respondido accidentalmente a todos en un correo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 374,
+    "text_en": "Everyone who procrastinated something important today drinks.",
+    "text_es": "Todos los que postergaron algo importante hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 375,
+    "text_en": "Everyone who overthinks before bed drinks.",
+    "text_es": "Todos los que piensan demasiado antes de dormir beben.",
+    "category": "regular"
+  },
+  {
+    "id": 376,
+    "text_en": "Everyone who has apologized more than 3 times today drinks.",
+    "text_es": "Todos los que se han disculpado más de 3 veces hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 377,
+    "text_en": "Everyone who has rehearsed a conversation before having it drinks.",
+    "text_es": "Todos los que han ensayado una conversación antes de tenerla beben.",
+    "category": "regular"
+  },
+  {
+    "id": 378,
+    "text_en": "Everyone who has eavesdropped on strangers drinks.",
+    "text_es": "Todos los que han escuchado a escondidas a extraños beben.",
+    "category": "regular"
+  },
+  {
+    "id": 379,
+    "text_en": "Everyone who has pretended to be asleep to avoid a conversation drinks.",
+    "text_es": "Todos los que han fingido estar dormidos para evitar una conversación beben.",
+    "category": "regular"
+  },
+  {
+    "id": 380,
+    "text_en": "Everyone who refuses to share food drinks.",
+    "text_es": "Todos los que se niegan a compartir comida beben.",
+    "category": "regular"
+  },
+  {
+    "id": 381,
+    "text_en": "Everyone who has eaten someone else's food by mistake drinks.",
+    "text_es": "Todos los que han comido la comida de alguien más por error beben.",
+    "category": "regular"
+  },
+  {
+    "id": 382,
+    "text_en": "Everyone who forgets birthdays drinks.",
+    "text_es": "Todos los que olvidan cumpleaños beben.",
+    "category": "regular"
+  },
+  {
+    "id": 383,
+    "text_en": "Everyone who has cried over a fictional character drinks.",
+    "text_es": "Todos los que han llorado por un personaje ficticio beben.",
+    "category": "regular"
+  },
+  {
+    "id": 384,
+    "text_en": "Everyone who has taken a nap today drinks.",
+    "text_es": "Todos los que tomaron una siesta hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 385,
+    "text_en": "Everyone who has lied about their age drinks.",
+    "text_es": "Todos los que han mentido sobre su edad beben.",
+    "category": "regular"
+  },
+  {
+    "id": 386,
+    "text_en": "Everyone who has run to catch a bus or train drinks.",
+    "text_es": "Todos los que han corrido para tomar un autobús o tren beben.",
+    "category": "regular"
+  },
+  {
+    "id": 387,
+    "text_en": "Everyone who has cried at a wedding drinks.",
+    "text_es": "Todos los que han llorado en una boda beben.",
+    "category": "regular"
+  },
+  {
+    "id": 388,
+    "text_en": "Everyone who has worn the same outfit two days in a row drinks.",
+    "text_es": "Todos los que han usado el mismo atuendo dos días seguidos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 389,
+    "text_en": "Everyone who has ordered something online in the last 24 hours drinks.",
+    "text_es": "Todos los que han pedido algo en línea en las últimas 24 horas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 390,
+    "text_en": "Everyone who has baked something from scratch drinks.",
+    "text_es": "Todos los que han horneado algo desde cero beben.",
+    "category": "regular"
+  },
+  {
+    "id": 391,
+    "text_en": "Everyone who has Googled the lyrics to a song while it was playing drinks.",
+    "text_es": "Todos los que han buscado la letra de una canción mientras sonaba beben.",
+    "category": "regular"
+  },
+  {
+    "id": 392,
+    "text_en": "Everyone who is currently wearing mismatched socks drinks.",
+    "text_es": "Todos los que actualmente llevan calcetines desparejados beben.",
+    "category": "regular"
+  },
+  {
+    "id": 393,
+    "text_en": "Everyone who has eaten cereal as a full meal this week drinks.",
+    "text_es": "Todos los que han comido cereal como comida completa esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 394,
+    "text_en": "Everyone who has held a door open for a stranger today drinks.",
+    "text_es": "Todos los que le han sostenido la puerta a un extraño hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 395,
+    "text_en": "Everyone who has laughed at their own joke drinks.",
+    "text_es": "Todos los que se han reído de su propio chiste beben.",
+    "category": "regular"
+  },
+  {
+    "id": 396,
+    "text_en": "Everyone who can name all 12 months in another language drinks.",
+    "text_es": "Todos los que pueden nombrar los 12 meses en otro idioma beben.",
+    "category": "regular"
+  },
+  {
+    "id": 397,
+    "text_en": "Everyone who has been in a fender bender drinks.",
+    "text_es": "Todos los que han tenido un pequeño choque beben.",
+    "category": "regular"
+  },
+  {
+    "id": 398,
+    "text_en": "Everyone who has asked someone for directions recently drinks.",
+    "text_es": "Todos los que le han pedido indicaciones a alguien recientemente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 399,
+    "text_en": "Everyone who has stayed in their car to finish a song drinks.",
+    "text_es": "Todos los que se han quedado en el carro para terminar de escuchar una canción beben.",
+    "category": "regular"
+  },
+  {
+    "id": 400,
+    "text_en": "Everyone who has gone to bed angry drinks.",
+    "text_es": "Todos los que se han ido a dormir enojados beben.",
+    "category": "regular"
+  },
+  {
+    "id": 401,
+    "text_en": "Everyone who has regretted something they said in the last 24 hours drinks.",
+    "text_es": "Todos los que se han arrepentido de algo que dijeron en las últimas 24 horas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 402,
+    "text_en": "Everyone who has done something embarrassing sober drinks.",
+    "text_es": "Todos los que han hecho algo vergonzoso estando sobrios beben.",
+    "category": "regular"
+  },
+  {
+    "id": 403,
+    "text_en": "Everyone who has yelled at their phone today drinks.",
+    "text_es": "Todos los que le han gritado a su teléfono hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 404,
+    "text_en": "Everyone who has tested something just to see what happens drinks.",
+    "text_es": "Todos los que han probado algo solo para ver qué pasa beben.",
+    "category": "regular"
+  },
+  {
+    "id": 405,
+    "text_en": "Everyone who has Googled something they're embarrassed about drinks.",
+    "text_es": "Todos los que han buscado algo vergonzoso en Google beben.",
+    "category": "regular"
+  },
+  {
+    "id": 406,
+    "text_en": "Everyone who has checked their horoscope this week drinks.",
+    "text_es": "Todos los que revisaron su horóscopo esta semana beben.",
+    "category": "regular"
+  },
+  {
+    "id": 407,
+    "text_en": "Everyone who believes in love at first sight drinks.",
+    "text_es": "Todos los que creen en el amor a primera vista beben.",
+    "category": "regular"
+  },
+  {
+    "id": 408,
+    "text_en": "Everyone who has been on more than 5 first dates drinks.",
+    "text_es": "Todos los que han tenido más de 5 primeras citas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 409,
+    "text_en": "Everyone who has been on a terrible first date and stayed anyway drinks.",
+    "text_es": "Todos los que han tenido una primera cita terrible y se quedaron de todas formas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 410,
+    "text_en": "Everyone who has had a secret admirer drinks.",
+    "text_es": "Todos los que han tenido un admirador secreto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 411,
+    "text_en": "Everyone who has been rejected drinks.",
+    "text_es": "Todos los que han sido rechazados beben.",
+    "category": "regular"
+  },
+  {
+    "id": 412,
+    "text_en": "Everyone who has rejected someone drinks.",
+    "text_es": "Todos los que han rechazado a alguien beben.",
+    "category": "regular"
+  },
+  {
+    "id": 413,
+    "text_en": "Everyone who has been in a situationship drinks.",
+    "text_es": "Todos los que han tenido una 'situationship' beben.",
+    "category": "regular"
+  },
+  {
+    "id": 414,
+    "text_en": "Everyone who has caught feelings for a friend drinks.",
+    "text_es": "Todos los que han sentido algo por un amigo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 415,
+    "text_en": "Everyone who has matched with someone on a dating app but never met drinks.",
+    "text_es": "Todos los que han hecho match en una app de citas pero nunca se conocieron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 416,
+    "text_en": "Everyone who uses a VPN drinks.",
+    "text_es": "Todos los que usan VPN beben.",
+    "category": "regular"
+  },
+  {
+    "id": 417,
+    "text_en": "Everyone who has fallen for a phishing email drinks.",
+    "text_es": "Todos los que han caído en un correo de phishing beben.",
+    "category": "regular"
+  },
+  {
+    "id": 418,
+    "text_en": "Everyone who still uses the same password for everything drinks.",
+    "text_es": "Todos los que todavía usan la misma contraseña para todo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 419,
+    "text_en": "Everyone who has forgotten a PIN or password today drinks.",
+    "text_es": "Todos los que han olvidado un PIN o contraseña hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 420,
+    "text_en": "Everyone who charges their phone every night drinks.",
+    "text_es": "Todos los que cargan su teléfono cada noche beben.",
+    "category": "regular"
+  },
+  {
+    "id": 421,
+    "text_en": "Everyone who has been on a road trip this year drinks.",
+    "text_es": "Todos los que han hecho un viaje por carretera este año beben.",
+    "category": "regular"
+  },
+  {
+    "id": 422,
+    "text_en": "Everyone who has pulled over just to take a photo drinks.",
+    "text_es": "Todos los que han parado solo para tomar una foto beben.",
+    "category": "regular"
+  },
+  {
+    "id": 423,
+    "text_en": "Everyone who edits their selfies before posting drinks.",
+    "text_es": "Todos los que editan sus selfies antes de publicarlas beben.",
+    "category": "regular"
+  },
+  {
+    "id": 424,
+    "text_en": "Everyone who has taken more than 20 selfies to get the right one drinks.",
+    "text_es": "Todos los que han tomado más de 20 selfies para conseguir la correcta beben.",
+    "category": "regular"
+  },
+  {
+    "id": 425,
+    "text_en": "Everyone who has posed for a photo and hated how they looked drinks.",
+    "text_es": "Todos los que han posado para una foto y odiado cómo quedaron beben.",
+    "category": "regular"
+  },
+  {
+    "id": 426,
+    "text_en": "Everyone who takes candid-style photos but actually poses them drinks.",
+    "text_es": "Todos los que toman fotos de estilo candid pero en realidad posan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 427,
+    "text_en": "Everyone who Facetimes regularly drinks.",
+    "text_es": "Todos los que hacen Facetime regularmente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 428,
+    "text_en": "Everyone who has been on a video call while in their pajamas drinks.",
+    "text_es": "Todos los que han estado en una videollamada en pijama beben.",
+    "category": "regular"
+  },
+  {
+    "id": 429,
+    "text_en": "Everyone who has attended a virtual event from their bed drinks.",
+    "text_es": "Todos los que han asistido a un evento virtual desde su cama beben.",
+    "category": "regular"
+  },
+  {
+    "id": 430,
+    "text_en": "Everyone who has faked technical problems during a video call drinks.",
+    "text_es": "Todos los que han fingido problemas técnicos durante una videollamada beben.",
+    "category": "regular"
+  },
+  {
+    "id": 431,
+    "text_en": "Everyone who has multitasked during a work or school call drinks.",
+    "text_es": "Todos los que han hecho multitarea durante una llamada de trabajo o escuela beben.",
+    "category": "regular"
+  },
+  {
+    "id": 432,
+    "text_en": "Everyone who has dressed up nicely only from the waist up for a video call drinks.",
+    "text_es": "Todos los que se han arreglado solo de la cintura para arriba para una videollamada beben.",
+    "category": "regular"
+  },
+  {
+    "id": 433,
+    "text_en": "The person with the most steps today drinks (check your phone) — everyone else drinks.",
+    "text_es": "La persona con más pasos hoy bebe (revisa tu teléfono) — todos los demás también.",
+    "category": "regular"
+  },
+  {
+    "id": 434,
+    "text_en": "Everyone who has less than 2,000 steps today drinks.",
+    "text_es": "Todos los que tienen menos de 2,000 pasos hoy beben.",
+    "category": "regular"
+  },
+  {
+    "id": 435,
+    "text_en": "Everyone who went to the gym in the last 2 days drinks.",
+    "text_es": "Todos los que fueron al gimnasio en los últimos 2 días beben.",
+    "category": "regular"
+  },
+  {
+    "id": 436,
+    "text_en": "Everyone who has done yoga drinks.",
+    "text_es": "Todos los que han hecho yoga beben.",
+    "category": "regular"
+  },
+  {
+    "id": 437,
+    "text_en": "Everyone who meditates drinks.",
+    "text_es": "Todos los que meditan beben.",
+    "category": "regular"
+  },
+  {
+    "id": 438,
+    "text_en": "Everyone who has tried intermittent fasting drinks.",
+    "text_es": "Todos los que han probado el ayuno intermitente beben.",
+    "category": "regular"
+  },
+  {
+    "id": 439,
+    "text_en": "Everyone who has gone on a diet drinks.",
+    "text_es": "Todos los que han hecho dieta beben.",
+    "category": "regular"
+  },
+  {
+    "id": 440,
+    "text_en": "Everyone who has gone more than a week without exercising drinks.",
+    "text_es": "Todos los que han pasado más de una semana sin hacer ejercicio beben.",
+    "category": "regular"
+  },
+  {
+    "id": 441,
+    "text_en": "Everyone who played a sport growing up drinks.",
+    "text_es": "Todos los que practicaron un deporte de niños beben.",
+    "category": "regular"
+  },
+  {
+    "id": 442,
+    "text_en": "Everyone who has ever quit a sport drinks.",
+    "text_es": "Todos los que alguna vez dejaron un deporte beben.",
+    "category": "regular"
+  },
+  {
+    "id": 443,
+    "text_en": "Everyone who still plays a sport drinks.",
+    "text_es": "Todos los que todavía practican un deporte beben.",
+    "category": "regular"
+  },
+  {
+    "id": 444,
+    "text_en": "Everyone who is currently on a sports team drinks.",
+    "text_es": "Todos los que actualmente están en un equipo deportivo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 445,
+    "text_en": "Everyone who has been to a professional sports game drinks.",
+    "text_es": "Todos los que han ido a un juego deportivo profesional beben.",
+    "category": "regular"
+  },
+  {
+    "id": 446,
+    "text_en": "Everyone who has bought team merchandise drinks.",
+    "text_es": "Todos los que han comprado mercancía de un equipo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 447,
+    "text_en": "The biggest sports fan in the room drinks.",
+    "text_es": "El mayor fanático deportivo del cuarto bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 448,
+    "text_en": "The least interested in sports person drinks.",
+    "text_es": "La persona menos interesada en el deporte bebe.",
+    "category": "regular"
+  },
+  {
+    "id": 449,
+    "text_en": "Everyone who watches the Olympics drinks.",
+    "text_es": "Todos los que ven los Juegos Olímpicos beben.",
+    "category": "regular"
+  },
+  {
+    "id": 450,
+    "text_en": "Everyone who has cried over their team losing drinks.",
+    "text_es": "Todos los que han llorado por la derrota de su equipo beben.",
+    "category": "regular"
+  },
+  {
+    "id": 451,
+    "text_en": "Save this card for later to skip your next drink.",
+    "text_es": "Guarda esta carta para después para saltarte tu próxima bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 452,
+    "text_en": "Save this card — use it to get out of drinking once.",
+    "text_es": "Guarda esta carta — úsala para no beber una vez.",
+    "category": "saved"
+  },
+  {
+    "id": 453,
+    "text_en": "This is a Get Out of Drinking Free card. Save it!",
+    "text_es": "Esta es una carta para no beber gratis. ¡Guárdala!",
+    "category": "saved"
+  },
+  {
+    "id": 454,
+    "text_en": "Hold onto this card — it excuses you from one drink.",
+    "text_es": "Guarda esta carta — te excusa de una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 455,
+    "text_en": "Save this card and play it to avoid drinking at any time.",
+    "text_es": "Guarda esta carta y úsala para evitar beber en cualquier momento.",
+    "category": "saved"
+  },
+  {
+    "id": 456,
+    "text_en": "Keep this card — when it's your turn to drink, use it instead.",
+    "text_es": "Guarda esta carta — cuando te toque beber, úsala.",
+    "category": "saved"
+  },
+  {
+    "id": 457,
+    "text_en": "Pocket this one! Use it later to skip a drink.",
+    "text_es": "¡Guarda esta! Úsala después para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 458,
+    "text_en": "This card is your pass. Hold it until you need to skip a drink.",
+    "text_es": "Esta carta es tu pase. Guárdala hasta que necesites saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 459,
+    "text_en": "A 'no drink' card. Save it for when you need it most.",
+    "text_es": "Una carta de 'no beber'. Guárdala para cuando más la necesites.",
+    "category": "saved"
+  },
+  {
+    "id": 460,
+    "text_en": "Lucky you — save this card to skip a drink later.",
+    "text_es": "Qué suerte — guarda esta carta para saltarte una bebida después.",
+    "category": "saved"
+  },
+  {
+    "id": 461,
+    "text_en": "This card is your shield. Save it to avoid any drink.",
+    "text_es": "Esta carta es tu escudo. Guárdala para evitar cualquier bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 462,
+    "text_en": "You've earned a pass! Save this card to skip a drink.",
+    "text_es": "¡Te ganaste un pase! Guarda esta carta para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 463,
+    "text_en": "Save this card — it's worth one free skip of any drink.",
+    "text_es": "Guarda esta carta — vale un skip gratis de cualquier bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 464,
+    "text_en": "Keep this one safe. Play it later to avoid drinking.",
+    "text_es": "Mantén esta a salvo. Úsala después para no beber.",
+    "category": "saved"
+  },
+  {
+    "id": 465,
+    "text_en": "This is your lifeline. Save it to skip a round.",
+    "text_es": "Este es tu salvavidas. Guárdalo para saltarte una ronda.",
+    "category": "saved"
+  },
+  {
+    "id": 466,
+    "text_en": "Fortune smiles on you — save this card to dodge a drink.",
+    "text_es": "La suerte te sonríe — guarda esta carta para esquivar una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 467,
+    "text_en": "Hold this card in reserve — it gets you out of one drink free.",
+    "text_es": "Guarda esta carta en reserva — te saca de una bebida gratis.",
+    "category": "saved"
+  },
+  {
+    "id": 468,
+    "text_en": "Tuck this card away. It buys you one drink-free moment.",
+    "text_es": "Guarda esta carta. Te compra un momento sin beber.",
+    "category": "saved"
+  },
+  {
+    "id": 469,
+    "text_en": "This card grants you immunity from one drink. Don't waste it!",
+    "text_es": "Esta carta te da inmunidad de una bebida. ¡No la desperdicies!",
+    "category": "saved"
+  },
+  {
+    "id": 470,
+    "text_en": "A golden pass — save this to sit out a drink.",
+    "text_es": "Un pase dorado — guárdalo para evitar una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 471,
+    "text_en": "Save this card and use it to escape any single drink.",
+    "text_es": "Guarda esta carta y úsala para escapar de cualquier bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 472,
+    "text_en": "Your 'not tonight' card — save it to skip one drink.",
+    "text_es": "Tu carta de 'esta vez no' — guárdala para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 473,
+    "text_en": "This is a free pass. Hold it until you need to skip a drink.",
+    "text_es": "Este es un pase libre. Guárdalo hasta que necesites saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 474,
+    "text_en": "Congratulations — you have a skip card! Save it for later.",
+    "text_es": "Felicitaciones — ¡tienes una carta de skip! Guárdala para después.",
+    "category": "saved"
+  },
+  {
+    "id": 475,
+    "text_en": "Guard this card carefully — it lets you dodge one drink.",
+    "text_es": "Cuida bien esta carta — te permite esquivar una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 476,
+    "text_en": "Your escape hatch — save this card to skip a drink.",
+    "text_es": "Tu salida de emergencia — guarda esta carta para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 477,
+    "text_en": "Keep this card safe. It'll save you from a drink when you need it.",
+    "text_es": "Guarda esta carta bien. Te salvará de una bebida cuando la necesites.",
+    "category": "saved"
+  },
+  {
+    "id": 478,
+    "text_en": "This card is your ace. Save it to skip one drink.",
+    "text_es": "Esta carta es tu as. Guárdala para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 479,
+    "text_en": "Hold this wild card — use it to skip any drink you choose.",
+    "text_es": "Guarda esta carta comodín — úsala para saltarte cualquier bebida que elijas.",
+    "category": "saved"
+  },
+  {
+    "id": 480,
+    "text_en": "A mercy card! Save it to get out of drinking once.",
+    "text_es": "¡Una carta de misericordia! Guárdala para no beber una vez.",
+    "category": "saved"
+  },
+  {
+    "id": 481,
+    "text_en": "This card has your back — save it to skip a drink.",
+    "text_es": "Esta carta te respalda — guárdala para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 482,
+    "text_en": "Save this card — it's your VIP pass to skip a drink.",
+    "text_es": "Guarda esta carta — es tu pase VIP para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 483,
+    "text_en": "Consider yourself lucky! Save this to avoid one drink.",
+    "text_es": "¡Considérate afortunado! Guárdala para evitar una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 484,
+    "text_en": "This card is an IOU of sobriety. Save it to skip one drink.",
+    "text_es": "Esta carta es un pagaré de sobriedad. Guárdala para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 485,
+    "text_en": "A rare find — save this card to skip any drink later.",
+    "text_es": "Un hallazgo raro — guarda esta carta para saltarte cualquier bebida después.",
+    "category": "saved"
+  },
+  {
+    "id": 486,
+    "text_en": "You get a pass! Save this card and use it whenever.",
+    "text_es": "¡Tienes un pase! Guarda esta carta y úsala cuando quieras.",
+    "category": "saved"
+  },
+  {
+    "id": 487,
+    "text_en": "This card protects you once. Save it wisely.",
+    "text_es": "Esta carta te protege una vez. Guárdala sabiamente.",
+    "category": "saved"
+  },
+  {
+    "id": 488,
+    "text_en": "Save this powerful card to cancel any drink coming your way.",
+    "text_es": "Guarda esta carta poderosa para cancelar cualquier bebida que se te venga.",
+    "category": "saved"
+  },
+  {
+    "id": 489,
+    "text_en": "A free escape — save this card to skip one drink.",
+    "text_es": "Un escape gratis — guarda esta carta para saltarte una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 490,
+    "text_en": "This card is your safety net. Save it for your next drink.",
+    "text_es": "Esta carta es tu red de seguridad. Guárdala para tu próxima bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 491,
+    "text_en": "You're spared! Save this card to skip a drink later.",
+    "text_es": "¡Estás a salvo! Guarda esta carta para saltarte una bebida después.",
+    "category": "saved"
+  },
+  {
+    "id": 492,
+    "text_en": "A 'no drink' token — hold onto this for when you need it.",
+    "text_es": "Un token de 'no beber' — guárdalo para cuando lo necesites.",
+    "category": "saved"
+  },
+  {
+    "id": 493,
+    "text_en": "Save this gem — it'll get you out of drinking once.",
+    "text_es": "Guarda esta joya — te sacará de beber una vez.",
+    "category": "saved"
+  },
+  {
+    "id": 494,
+    "text_en": "Your drink-free coupon! Save this card to use whenever.",
+    "text_es": "¡Tu cupón sin beber! Guarda esta carta para usarla cuando quieras.",
+    "category": "saved"
+  },
+  {
+    "id": 495,
+    "text_en": "Keep this secret weapon — skip one drink whenever you like.",
+    "text_es": "Guarda esta arma secreta — sáltate una bebida cuando quieras.",
+    "category": "saved"
+  },
+  {
+    "id": 496,
+    "text_en": "Save this card. It's a hall pass for one drink.",
+    "text_es": "Guarda esta carta. Es un pase de pasillo para una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 497,
+    "text_en": "Don't drink yet — save this card to skip one later.",
+    "text_es": "No bebas todavía — guarda esta carta para saltarte una después.",
+    "category": "saved"
+  },
+  {
+    "id": 498,
+    "text_en": "You drew the magic card — save it to escape a drink.",
+    "text_es": "Sacaste la carta mágica — guárdala para escapar de una bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 499,
+    "text_en": "This card is pure gold — save it to skip any drink.",
+    "text_es": "Esta carta es puro oro — guárdala para saltarte cualquier bebida.",
+    "category": "saved"
+  },
+  {
+    "id": 500,
+    "text_en": "A skip card has found you. Hold it until it's needed.",
+    "text_es": "Una carta de skip te encontró. Guárdala hasta que sea necesario.",
+    "category": "saved"
+  }
+]

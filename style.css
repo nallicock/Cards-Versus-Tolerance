@@ -1,0 +1,47 @@
+/*
+Color palette: 
+White: #FEF9F3
+Orange: #DE9151
+Black: #424242
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DE9151;
+}
+
+.banner {
+    background-color: #424242;
+    color: #FEF9F3;
+    padding-top: 0;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#language-menu {
+
+}
+
+#card-section {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 200px;
+    height: 200px;
+    background-color: #FEF9F3;
+}
