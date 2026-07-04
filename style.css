@@ -40,8 +40,22 @@ body {
     align-items: center;
 }
 
+#saved-cards {
+    /*visibility: hidden;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+
 #card {
     width: 200px;
     height: 200px;
     background-color: #FEF9F3;
+}
+
+#saved-card {
+    width: 200px;
+    height: 200px;
+    background-color: #FEF9F3;
+    margin: 10px;
 }
