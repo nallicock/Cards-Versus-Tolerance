@@ -33,6 +33,11 @@ body {
 
 }
 
+#restart-game-btn {
+    display: block;
+    visibility: hidden;
+}
+
 #card-section {
     visibility: hidden;
     display: flex;

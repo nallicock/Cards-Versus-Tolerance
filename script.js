@@ -6,12 +6,14 @@ const langMenu = document.getElementById("language-menu");
 const cardSection = document.getElementById("card-section");
 const englishBtn = document.getElementById("english-btn");
 const spanishBtn = document.getElementById("spanish-btn");
+const restartGameBtn = document.getElementById("restart-game-btn");
 
 englishBtn.addEventListener("click", () => {
     language = "en";
     console.log(language); // "en"
     langMenu.style.visibility = "hidden";
     cardSection.style.visibility = "visible";
+    restartGameBtn.style.visibility = "visible";
     loadCards();
 });
 
@@ -20,6 +22,7 @@ spanishBtn.addEventListener("click", () => {
     console.log(language); // "es"
     langMenu.style.visibility = "hidden";
     cardSection.style.visibility = "visible";
+    restartGameBtn.style.visibility = "visible";
     loadCards();
 });
 
@@ -83,16 +86,28 @@ function renderSavedCards() {
     });
 }
 
+function restartGame() {
+    savedCards = [];
+    cardMessages = [];
+
+    document.getElementById("saved-cards").innerHTML = "";
+    document.getElementById("card-content").textContent = "";
+
+    loadCards();
+    console.log("Restarted game.")
+}
+
 /*
 TODO: 
 
 Implement SAVED CARDS section at bottom of screen - players can draw a saved card at any time - done 
 Implement multiplayer via Socket.io
-Implement a restart game button
+Implement a restart game button - done
 Implement main menu that allows you to select English or Spanish - done
 Implement logic so that if spanish is selected, all cards appear as spanish for that player. - done
 Implement REACT frontend, and some kind of backend. Look into this more.
 Implement functionality to click 'OK' button on the card on screen before continuing. - done
 
+Make the application look beautiful
 Deploy application
 */

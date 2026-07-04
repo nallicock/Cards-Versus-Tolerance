@@ -11,27 +11,28 @@
         <h2>Cards Versus Tolerance</h2>
     </div>
     <div>
-    <h1>Get Drunk</h1>
-    <p>Draw a card and complete the task or drink</p>
-    <div id="language-menu">
-        <h3>Select Language/Elegir Idioma</h3>
-        <button id="english-btn">English</button>
-        <button id="spanish-btn">Español</button>
-    </div>
-    <div id="card-section">
-        <div id="card">
-            <p id="card-content"><!--Card content goes here--></p>
-            <button id="nextCard" onClick="showNextCard()">OK</button>
+        <h1>Get Drunk</h1>
+        <p>Draw a card and complete the task or drink</p>
+        <div id="language-menu">
+            <h3>Select Language/Elegir Idioma</h3>
+            <button id="english-btn">English</button>
+            <button id="spanish-btn">Español</button>
         </div>
-    </div>
-    <div id="saved-cards-section">
-        <h3 id="saved-card-title">
-            Saved Cards
-        </h3>
-        <div id="saved-cards">
+        <button id="restart-game-btn" onClick="restartGame()">RESTART GAME</button>
+        <div id="card-section">
+            <div id="card">
+                <p id="card-content"><!--Card content goes here--></p>
+                <button id="nextCard" onClick="showNextCard()">OK</button>
+            </div>
+        </div>
+        <div id="saved-cards-section">
+            <h3 id="saved-card-title">
+                Saved Cards 
+            </h3>
+            <div id="saved-cards">
 
+            </div>
         </div>
-    </div>
     </div>
     <script src="./script.js"></script>
 </body>
