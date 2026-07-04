@@ -42,7 +42,9 @@ function showNextCard () {
         cardMessages[randomIndex].text_es;
     }
 
-    if (cardMessages[randomIndex].category === "saved")
+    if (cardMessages[randomIndex].category === "saved" || 
+        cardMessages[randomIndex].category === "reverse"
+    )
     {
         console.log("saved card");
         savedCards.push(cardMessages[randomIndex]);
@@ -100,14 +102,25 @@ function restartGame() {
 /*
 TODO: 
 
-Implement SAVED CARDS section at bottom of screen - players can draw a saved card at any time - done 
-Implement multiplayer via Socket.io
+Implement socket.io + node.js backend to add online multiplayer
+Implement Scoreboard for how many drinks someone has had
+Add selfie option to all players in the lobby
+Add card rotation system to order players
+If you get a card with category 'pass', create dropdown window to choose name
+Add pass and reverse categories for cards with conditional buttons
+Add 'Use safe card' button
+Add 'Gift/Donate Card' button so players can donate safe cards to others
+Make the application look beautiful with nice transitions and css
+Add event box to see what special cards players have used.
+
+
+COMPLETED:
 Implement a restart game button - done
 Implement main menu that allows you to select English or Spanish - done
 Implement logic so that if spanish is selected, all cards appear as spanish for that player. - done
-Implement REACT frontend, and some kind of backend. Look into this more.
+Implement SAVED CARDS section at bottom of screen - players can draw a saved card at any time - done 
 Implement functionality to click 'OK' button on the card on screen before continuing. - done
 
-Make the application look beautiful
+
 Deploy application
 */
