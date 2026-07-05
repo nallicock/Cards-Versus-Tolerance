@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const spanishBtn = document.getElementById("spanish-btn");
     const restartGameBtn = document.getElementById("restart-game-btn");
     const nameBtn = document.getElementById("name-btn");
+    const createRoomBtn = document.getElementById("create-room-btn");
+
 
     const socket = io();
 
@@ -47,6 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
     socket.on("connect", () => {
         console.log("Connected to server:", socket.id);
         socket.emit("set-name", "TEST_FROM_LOAD");
+    });
+
+    socket.on("room-created", (roomCode) => {
+
+        console.log("Room created:", roomCode);
+
+        document.getElementById("room-code-display").textContent =
+            `Room Code: ${roomCode}`;
+
     });
 
     socket.emit("hello", "Hi server!");
@@ -74,7 +85,13 @@ document.addEventListener("DOMContentLoaded", () => {
     nameBtn.addEventListener("click", () => {
         nameSelect.style.visibility = "hidden";
         mainMenu.style.visibility = "visible";
-    })
+    });
+
+    createRoomBtn.addEventListener("click", () => {
+
+        socket.emit("create-room");
+
+    });
 
     function getRandomItem(array) {
         return array[Math.floor(Math.random() * array.length)];
@@ -176,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         document.getElementById("player-name-display").textContent =
-            `${namePhrase}${playerName}`;     
+            `${namePhrase}${playerName}.`;     
         });
 
     /*
