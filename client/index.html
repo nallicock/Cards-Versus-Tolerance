@@ -18,6 +18,26 @@
             <button id="english-btn">English</button>
             <button id="spanish-btn">Español</button>
         </div>
+        <div id="name-select">
+            <h2>What is your name?</h2>
+
+            <form id="name-form">
+                <input
+                    type="text"
+                    id="input-name"
+                    placeholder="Enter your name"
+                    maxlength="20"
+                    required
+                >
+
+                <button type="submit" id="name-btn">Continue</button>
+            </form>
+        </div>
+        <div id="main-menu">
+            <h2 id="player-name-display"></h2>
+            <button id="create-room">Create Room</button>
+            <button id="join-room">Join Room</button>
+        </div>
         <button id="restart-game-btn" onClick="restartGame()">RESTART GAME</button>
         <div id="card-section">
             <div id="card">
@@ -34,6 +54,7 @@
             </div>
         </div>
     </div>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

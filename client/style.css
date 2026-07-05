@@ -46,7 +46,7 @@ body {
 }
 
 #saved-cards {
-    /*visibility: hidden;*/
+    visibility: hidden;
     display: flex;
     flex-wrap: wrap;
     align-items:flex-start;
@@ -63,4 +63,12 @@ body {
     height: 200px;
     background-color: #FEF9F3;
     margin: 10px;
+}
+
+#name-select {
+    visibility: hidden;
+}
+
+#main-menu {
+    visibility: hidden;
 }
