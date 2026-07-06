@@ -2,7 +2,7 @@ const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
 const path = require("path");
-
+const deck = require("../client/getDrunkMessages.json");
 const app = express();
 const server = http.createServer(app);
 
@@ -44,6 +44,22 @@ function updateLobby(roomCode) {
     if (!room) return;
 
     io.to(roomCode).emit("lobby-update", room.players);
+
+}
+
+function shuffle(array) {
+
+    const shuffled = [...array];
+
+    for (let i = shuffled.length - 1; i > 0; i--) {
+
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+
+    }
+
+    return shuffled;
 
 }
 
@@ -102,6 +118,10 @@ io.on("connection", (socket) => {
         updateLobby(roomCode);
     });
 
+    socket.on("start-game-error", (message) => {
+        alert(message);
+    });
+
     socket.on("create-room", () => {
 
         const roomCode = generateRoomCode();
@@ -116,7 +136,9 @@ io.on("connection", (socket) => {
                     isHost: true
                 }
             ],
-            started: false
+            started: false,
+            deck: [],
+            currentCard: 0
         };
 
         socket.join(roomCode);
@@ -192,5 +214,51 @@ io.on("connection", (socket) => {
         console.log(`${kickedSocket.playerName} was kicked from ${roomCode}`);
     });
 
-    
+    socket.on("start-game", () => {
+        const roomCode = socket.roomCode;
+        if (!roomCode) return;
+        const room = rooms[roomCode];
+
+        if (!room) return;
+
+        // Only host can start game
+        if (room.host !== socket.id) {
+            socket.emit("start-game-error", "Only the host can start the game.");
+            return;
+        }
+        room.started = true;
+        io.to(roomCode).emit("game-started");
+        console.log(`Game started in room ${roomCode}`);
+
+        room.deck = shuffle(deck);
+
+        room.currentCard = 0;
+
+        io.to(roomCode).emit("game-started");
+
+        io.to(roomCode).emit("new-card", room.deck[0]);
+    });
+
+    socket.on("next-card", () => {
+
+        const room = rooms[socket.roomCode];
+
+        if (!room) return;
+
+        if (room.host !== socket.id) return;
+
+        room.currentCard++;
+
+        if (room.currentCard >= room.deck.length) {
+
+            room.currentCard = 0;
+
+        }
+
+        io.to(socket.roomCode).emit(
+            "new-card",
+            room.deck[room.currentCard]
+        );
+
+    });
 });

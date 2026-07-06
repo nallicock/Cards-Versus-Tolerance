@@ -39,6 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const lobbyScreen = document.getElementById("lobby-screen");
     const playerList = document.getElementById("player-list");
     const roomCodeDisplay = document.getElementById("room-code-display");
+    const startGameBtn = document.getElementById("start-game-btn");
+    const nextCardBtn = document.getElementById("nextCard");
 
     const socket = io();
 
@@ -101,11 +103,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     socket.on("room-created", (roomCode) => {
-
         roomCodeDisplay.textContent = `Room: ${roomCode}`;
-
         mainMenu.style.display = "none";
         lobbyScreen.style.display = "block";
+    });
+
+    socket.on("game-started", () => {
+        console.log("Game started!");
+        lobbyScreen.style.display = "none";
+        cardSection.style.visibility = "visible";
+        restartGameBtn.style.visibility = "visible";
+        loadCards();
+    });
+
+    socket.on("new-card", (card) => {
+
+        if (language === "en") {
+
+            document.getElementById("card-content").textContent =
+                card.text_en;
+
+        }
+        else {
+
+            document.getElementById("card-content").textContent =
+                card.text_es;
+
+        }
+
     });
 
     socket.emit("hello", "Hi server!");
@@ -157,11 +182,28 @@ document.addEventListener("DOMContentLoaded", () => {
         socket.emit("join-room", roomCode);        
     });
 
+    startGameBtn.addEventListener("click", () => {
+        socket.emit("start-game");
+    });
+
+    nextCardBtn.addEventListener("click", () => {
+
+        socket.emit("next-card");
+
+    });
+
     function renderPlayerList(players) {
 
         playerList.innerHTML = "";
 
         const amIHost = players.find(player => player.id === myId)?.isHost;
+
+        if (amIHost) {
+            startGameBtn.style.display = "block";
+        }
+        else {
+            startGameBtn.style.display = "none";
+        }
 
         players.forEach((player) => {
 
@@ -234,7 +276,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardMessages = await response.json();
 
         console.log(cardMessages.length); // Should be 500
-        showNextCard();
+        socket.emit("next-card");
     }
 
 
@@ -320,6 +362,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Move player functionality when creating table layout - only allow host to move
     Up to 20 players in a lobby
     Concept art that matches young adult demographic
+    Make some kind of public and private lobby functionality so people can see open rooms
 
 
     COMPLETED:
