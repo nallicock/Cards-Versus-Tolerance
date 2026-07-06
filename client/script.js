@@ -20,6 +20,7 @@ const playerNameVerbiageSpanish = [
 let language = "";
 
 document.addEventListener("DOMContentLoaded", () => {
+    let myId = "";
     console.log("SCRIPT LOADED");
     const langMenu = document.getElementById("language-menu");
     const nameSelect = document.getElementById("name-select");
@@ -48,8 +49,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Attempting to connect...");
 
+    socket.on("your-id", (id) => {
+        myId = id;
+    });
+
     socket.on("welcome", (message) => {
         console.log(message);
+    });
+
+    socket.on("kicked", () => {
+        alert("You were kicked from the lobby.");
+        lobbyScreen.style.display = "none";
+        mainMenu.style.display = "block";
     });
     
 
@@ -150,18 +161,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
         playerList.innerHTML = "";
 
+        const amIHost = players.find(player => player.id === myId)?.isHost;
+
         players.forEach((player) => {
 
-            const li = document.createElement("li");
+            const row = document.createElement("div");
+
+            const name = document.createElement("span");
 
             if (player.isHost) {
-                li.textContent = `HOST - ${player.name}`;
-            }
-            else {
-                li.textContent = player.name;
+                name.textContent = `HOST - ${player.name}`;
+            } else {
+                name.textContent = player.name;
             }
 
-            playerList.appendChild(li);
+            row.appendChild(name);
+
+            if (amIHost && player.id !== myId) {
+
+                const kickButton = document.createElement("button");
+
+                kickButton.textContent = "Kick";
+
+                kickButton.addEventListener("click", () => {
+
+                    socket.emit("kick-player", player.id);
+
+                });
+
+                row.appendChild(kickButton);
+            }
+
+            playerList.appendChild(row);
 
         });
 

@@ -51,6 +51,7 @@ io.on("connection", (socket) => {
     console.log("CLIENT CONNECTED:", socket.id);
 
     socket.emit("welcome", "Welcome to the server!");
+    socket.emit("your-id", socket.id);
 
     socket.on("hello", (message) => {
         console.log(message);
@@ -153,5 +154,43 @@ io.on("connection", (socket) => {
         logRoom(roomCode);
     });
 
+    socket.on("kick-player", (playerId) => {
 
+        const roomCode = socket.roomCode;
+
+        if (!roomCode) return;
+
+        const room = rooms[roomCode];
+
+        if (!room) return;
+
+        // Only the host can kick
+        if (room.host !== socket.id) {
+            return;
+        }
+
+        // Host cannot kick themselves
+        if (playerId === socket.id) {
+            return;
+        }
+
+        const kickedSocket = io.sockets.sockets.get(playerId);
+
+        if (!kickedSocket) {
+            return;
+        }
+
+        room.players = room.players.filter(player => player.id !== playerId);
+
+        kickedSocket.leave(roomCode);
+        kickedSocket.roomCode = null;
+
+        kickedSocket.emit("kicked");
+
+        updateLobby(roomCode);
+
+        console.log(`${kickedSocket.playerName} was kicked from ${roomCode}`);
+    });
+
+    
 });
