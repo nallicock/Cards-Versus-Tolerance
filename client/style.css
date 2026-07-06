@@ -66,9 +66,13 @@ body {
 }
 
 #name-select {
-    visibility: hidden;
+    display: none;
 }
 
 #main-menu {
-    visibility: hidden;
+    display: none;
+}
+
+#join-room-section {
+    display: none;
 }

@@ -24,13 +24,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const langMenu = document.getElementById("language-menu");
     const nameSelect = document.getElementById("name-select");
     const cardSection = document.getElementById("card-section");
+    const joinRoom = document.getElementById("join-room-section");
     const mainMenu = document.getElementById("main-menu");
     const englishBtn = document.getElementById("english-btn");
     const spanishBtn = document.getElementById("spanish-btn");
     const restartGameBtn = document.getElementById("restart-game-btn");
     const nameBtn = document.getElementById("name-btn");
     const createRoomBtn = document.getElementById("create-room-btn");
-
+    const joinRoomBtn1 = document.getElementById("join-room-1-btn");
+    const joinRoomBtn2 = document.getElementById("join-room-2-btn");
+    const roomInput = document.getElementById("room-input");
+    const joinStatus = document.getElementById("join-room-status");
+    const lobbyScreen = document.getElementById("lobby-screen");
+    const playerList = document.getElementById("player-list");
+    const roomCodeDisplay = document.getElementById("room-code-display");
 
     const socket = io();
 
@@ -57,7 +64,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById("room-code-display").textContent =
             `Room Code: ${roomCode}`;
+        mainMenu.style.display = "none";
+        lobbyScreen.style.display = "block";
+    });
 
+    socket.on("lobby-update", (players) => {
+
+        renderPlayerList(players);
+
+    });
+
+    socket.on("join-success", (roomCode) => {
+        joinStatus.textContent = `Joined room ${roomCode}`;
+        console.log("Joined room:", roomCode);
+        
+        roomCodeDisplay.textContent = `Room: ${roomCode}`;
+
+        mainMenu.style.display = "none";
+        lobbyScreen.style.display = "block";
+    });
+
+    socket.on("join-error", (message) => {
+        joinStatus.textContent = message;
+        console.log("Join error:", message);
+    });
+
+    socket.on("room-created", (roomCode) => {
+
+        roomCodeDisplay.textContent = `Room: ${roomCode}`;
+
+        mainMenu.style.display = "none";
+        lobbyScreen.style.display = "block";
     });
 
     socket.emit("hello", "Hi server!");
@@ -65,26 +102,26 @@ document.addEventListener("DOMContentLoaded", () => {
     englishBtn.addEventListener("click", () => {
         language = "en";
         console.log(language); // "en"
-        langMenu.style.visibility = "hidden";
+        langMenu.style.display = "none";
         //cardSection.style.visibility = "visible";
         //restartGameBtn.style.visibility = "visible";
-        nameSelect.style.visibility = "visible";
+        nameSelect.style.display = "block";
         //loadCards();
     });
 
     spanishBtn.addEventListener("click", () => {
         language = "es";
         console.log(language); // "es"
-        langMenu.style.visibility = "hidden";
+        langMenu.style.display = "none";
         //cardSection.style.visibility = "visible";
         //restartGameBtn.style.visibility = "visible";
-        nameSelect.style.visibility = "visible";
+        nameSelect.style.display = "block";
         //loadCards();
     });
 
     nameBtn.addEventListener("click", () => {
-        nameSelect.style.visibility = "hidden";
-        mainMenu.style.visibility = "visible";
+        nameSelect.style.display = "none";
+        mainMenu.style.display = "block";
     });
 
     createRoomBtn.addEventListener("click", () => {
@@ -92,6 +129,43 @@ document.addEventListener("DOMContentLoaded", () => {
         socket.emit("create-room");
 
     });
+
+    joinRoomBtn1.addEventListener("click", () => {
+        mainMenu.style.display = "none";
+        joinRoom.style.display = "block";
+    });
+        
+    joinRoomBtn2.addEventListener("click", () => {
+        const roomCode = roomInput.value.trim().toUpperCase();
+        console.log("Joining room:", roomCode);
+        if (!roomCode) {
+            joinStatus.textContent = "Please enter a room code.";
+            return;
+        }
+        joinRoom.style.display = "none";
+        socket.emit("join-room", roomCode);        
+    });
+
+    function renderPlayerList(players) {
+
+        playerList.innerHTML = "";
+
+        players.forEach((player) => {
+
+            const li = document.createElement("li");
+
+            if (player.isHost) {
+                li.textContent = `HOST - ${player.name}`;
+            }
+            else {
+                li.textContent = player.name;
+            }
+
+            playerList.appendChild(li);
+
+        });
+
+    }
 
     function getRandomItem(array) {
         return array[Math.floor(Math.random() * array.length)];
@@ -209,6 +283,12 @@ document.addEventListener("DOMContentLoaded", () => {
     Add 'Gift/Donate Card' button so players can donate safe cards to others
     Make the application look beautiful with nice transitions and css
     Add event box to see what special cards players have used.
+    Add title for the room
+    Allow hosts to create their own passwords
+    Add KICK PLAYER FROM LOBBY
+    Move player functionality when creating table layout - only allow host to move
+    Up to 20 players in a lobby
+    Concept art that matches young adult demographic
 
 
     COMPLETED:

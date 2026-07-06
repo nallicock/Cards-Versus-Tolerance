@@ -18,6 +18,13 @@ server.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
 
+function logRoom(roomCode) {
+    const room = rooms[roomCode];
+
+    console.log(`\n===== ROOM ${roomCode} =====`);
+    console.table(room.players);
+}
+
 function generateRoomCode() {
 
     const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -28,6 +35,16 @@ function generateRoomCode() {
     }
 
     return code;
+}
+
+function updateLobby(roomCode) {
+
+    const room = rooms[roomCode];
+
+    if (!room) return;
+
+    io.to(roomCode).emit("lobby-update", room.players);
+
 }
 
 io.on("connection", (socket) => {
@@ -46,29 +63,95 @@ io.on("connection", (socket) => {
     });
 
     socket.on("disconnect", () => {
-        console.log(`${socket.id} disconnected`);
+        const roomCode = socket.roomCode;
+
+        if (!roomCode) return;
+
+        const room = rooms[roomCode];
+
+        if (!room) return;
+
+        const wasHost = room.host === socket.id;
+
+        // Remove the player
+        room.players = room.players.filter(player => player.id !== socket.id);
+
+        // Delete empty room
+        if (room.players.length === 0) {
+            delete rooms[roomCode];
+            console.log(`Deleted room ${roomCode}`);
+            return;
+        }
+
+        // Choose a new random host
+        if (wasHost) {
+
+            const randomIndex = Math.floor(Math.random() * room.players.length);
+
+            room.players.forEach(player => {
+                player.isHost = false;
+            });
+
+            room.players[randomIndex].isHost = true;
+            room.host = room.players[randomIndex].id;
+
+            console.log(`${room.players[randomIndex].name} is the new host.`);
+        }
+
+        updateLobby(roomCode);
     });
 
     socket.on("create-room", () => {
 
-    const roomCode = generateRoomCode();
+        const roomCode = generateRoomCode();
 
-    rooms[roomCode] = {
+        rooms[roomCode] = {
+            host: socket.id,
+            players: [
+                {
+                    id: socket.id,
+                    name: socket.playerName,
+                    drinks: 0,
+                    isHost: true
+                }
+            ],
+            started: false
+        };
 
-        host: socket.id,
+        socket.join(roomCode);
+        socket.roomCode = roomCode;
+        socket.emit("room-created", roomCode);
+        updateLobby(roomCode);
 
-        players: [],
+        console.log("Room created: ", rooms);
 
-        started: false
+    });
 
-    };
+    socket.on("join-room", (roomCode) => {
 
-    socket.join(roomCode);
+        const room = rooms[roomCode];
 
-    socket.emit("room-created", roomCode);
+        if (!room) {
+            socket.emit("join-error", "Room does not exist.");
+            return;
+        }
 
-    console.log(rooms);
+        // add player
+        room.players.push({
+            id: socket.id,
+            name: socket.playerName || "Unknown",
+            drinks: 0
+        });
 
-});
+        socket.join(roomCode);
+        socket.roomCode = roomCode;
+
+        console.log(`${socket.id} joined room ${roomCode}`);
+
+        socket.emit("join-success", roomCode);
+        updateLobby(roomCode);
+        logRoom(roomCode);
+    });
+
 
 });
