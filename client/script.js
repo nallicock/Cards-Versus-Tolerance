@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const lobbyScreen = document.getElementById("lobby-screen");
     const playerList = document.getElementById("player-list");
     const roomCodeDisplay = document.getElementById("room-code-display");
+    const startGameBtn = document.getElementById("start-game-btn");
+    const nextCardBtn = document.getElementById("nextCard");
+    const turnDisplay = document.getElementById("turn-display");
 
     const socket = io();
 
@@ -101,11 +104,48 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     socket.on("room-created", (roomCode) => {
-
         roomCodeDisplay.textContent = `Room: ${roomCode}`;
-
         mainMenu.style.display = "none";
         lobbyScreen.style.display = "block";
+    });
+
+
+    socket.on("game-started", () => {
+        console.log("Game started!");
+        lobbyScreen.style.display = "none";
+        cardSection.style.visibility = "visible";
+        restartGameBtn.style.visibility = "visible";
+    });
+
+    socket.on("game-state", (game) => {
+
+        turnDisplay.textContent =
+            `Current Turn: ${game.currentPlayerName}`;
+
+        if (language === "en") {
+
+            document.getElementById("card-content").textContent =
+                game.card.text_en;
+
+        }
+        else {
+
+            document.getElementById("card-content").textContent =
+                game.card.text_es;
+
+        }
+
+        if (game.currentPlayerId === myId) {
+
+            nextCardBtn.disabled = false;
+
+        }
+        else {
+
+            nextCardBtn.disabled = true;
+
+        }
+
     });
 
     socket.emit("hello", "Hi server!");
@@ -157,11 +197,28 @@ document.addEventListener("DOMContentLoaded", () => {
         socket.emit("join-room", roomCode);        
     });
 
+    startGameBtn.addEventListener("click", () => {
+        socket.emit("start-game");
+    });
+
+    nextCardBtn.addEventListener("click", () => {
+
+        socket.emit("end-turn");
+
+    });
+
     function renderPlayerList(players) {
 
         playerList.innerHTML = "";
 
         const amIHost = players.find(player => player.id === myId)?.isHost;
+
+        if (amIHost) {
+            startGameBtn.style.display = "block";
+        }
+        else {
+            startGameBtn.style.display = "none";
+        }
 
         players.forEach((player) => {
 
@@ -227,14 +284,6 @@ document.addEventListener("DOMContentLoaded", () => {
             renderSavedCards();
             console.log("saved card array: ", cardMessages[randomIndex]);
         }
-    }
-
-    async function loadCards() {
-        const response = await fetch("getDrunkMessages.json");
-        cardMessages = await response.json();
-
-        console.log(cardMessages.length); // Should be 500
-        showNextCard();
     }
 
 
@@ -304,10 +353,8 @@ document.addEventListener("DOMContentLoaded", () => {
     /*
     TODO: 
 
-    Implement socket.io + node.js backend to add online multiplayer
     Implement Scoreboard for how many drinks someone has had
     Add selfie option to all players in the lobby
-    Add card rotation system to order players
     If you get a card with category 'pass', create dropdown window to choose name
     Add pass and reverse categories for cards with conditional buttons
     Add 'Use safe card' button
@@ -316,11 +363,12 @@ document.addEventListener("DOMContentLoaded", () => {
     Add event box to see what special cards players have used.
     Add title for the room
     Allow hosts to create their own passwords
-    Add KICK PLAYER FROM LOBBY
     Move player functionality when creating table layout - only allow host to move
     Up to 20 players in a lobby
     Concept art that matches young adult demographic
-
+    Remove 500 cards and instead add funnier cards along with generic stuff. Do 500 anyway
+    Add functionality to show lobby list in Home page instead of joining lobby with code
+    Make some kind of public and private lobby functionality so people can see open rooms
 
     COMPLETED:
     Implement a restart game button - done
@@ -328,7 +376,9 @@ document.addEventListener("DOMContentLoaded", () => {
     Implement logic so that if spanish is selected, all cards appear as spanish for that player. - done
     Implement SAVED CARDS section at bottom of screen - players can draw a saved card at any time - done 
     Implement functionality to click 'OK' button on the card on screen before continuing. - done
-
+    Add KICK PLAYER FROM LOBBY
+    Implement socket.io + node.js backend to add online multiplayer
+    Add card rotation system to order players 
 
     Deploy application
     */
