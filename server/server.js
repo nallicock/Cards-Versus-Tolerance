@@ -63,6 +63,24 @@ function shuffle(array) {
 
 }
 
+function sendGameState(roomCode) {
+
+    const room = rooms[roomCode];
+
+    if (!room) return;
+
+    io.to(roomCode).emit("game-state", {
+
+        card: room.deck[room.currentCard],
+
+        currentPlayerId: room.players[room.currentTurn].id,
+
+        currentPlayerName: room.players[room.currentTurn].name
+
+    });
+
+}
+
 io.on("connection", (socket) => {
     console.log("CLIENT CONNECTED:", socket.id);
 
@@ -138,7 +156,8 @@ io.on("connection", (socket) => {
             ],
             started: false,
             deck: [],
-            currentCard: 0
+            currentCard: 0,
+            currentTurn: 0
         };
 
         socket.join(roomCode);
@@ -236,7 +255,7 @@ io.on("connection", (socket) => {
 
         io.to(roomCode).emit("game-started");
 
-        io.to(roomCode).emit("new-card", room.deck[0]);
+        sendGameState(roomCode);
     });
 
     socket.on("next-card", () => {
@@ -259,6 +278,34 @@ io.on("connection", (socket) => {
             "new-card",
             room.deck[room.currentCard]
         );
+
+    });
+    socket.on("end-turn", () => {
+
+        const room = rooms[socket.roomCode];
+
+        if (!room) return;
+
+        // Only the current player may end the turn
+        if (room.players[room.currentTurn].id !== socket.id) {
+            return;
+        }
+
+        // Move to the next player
+        room.currentTurn++;
+
+        if (room.currentTurn >= room.players.length) {
+            room.currentTurn = 0;
+        }
+
+        // Move to the next card
+        room.currentCard++;
+
+        if (room.currentCard >= room.deck.length) {
+            room.currentCard = 0;
+        }
+
+        sendGameState(socket.roomCode);
 
     });
 });

@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const roomCodeDisplay = document.getElementById("room-code-display");
     const startGameBtn = document.getElementById("start-game-btn");
     const nextCardBtn = document.getElementById("nextCard");
+    const turnDisplay = document.getElementById("turn-display");
 
     const socket = io();
 
@@ -113,21 +114,34 @@ document.addEventListener("DOMContentLoaded", () => {
         lobbyScreen.style.display = "none";
         cardSection.style.visibility = "visible";
         restartGameBtn.style.visibility = "visible";
-        loadCards();
     });
 
-    socket.on("new-card", (card) => {
+    socket.on("game-state", (game) => {
+
+        turnDisplay.textContent =
+            `Current Turn: ${game.currentPlayerName}`;
 
         if (language === "en") {
 
             document.getElementById("card-content").textContent =
-                card.text_en;
+                game.card.text_en;
 
         }
         else {
 
             document.getElementById("card-content").textContent =
-                card.text_es;
+                game.card.text_es;
+
+        }
+
+        if (game.currentPlayerId === myId) {
+
+            nextCardBtn.disabled = false;
+
+        }
+        else {
+
+            nextCardBtn.disabled = true;
 
         }
 
@@ -188,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     nextCardBtn.addEventListener("click", () => {
 
-        socket.emit("next-card");
+        socket.emit("end-turn");
 
     });
 
@@ -269,14 +283,6 @@ document.addEventListener("DOMContentLoaded", () => {
             renderSavedCards();
             console.log("saved card array: ", cardMessages[randomIndex]);
         }
-    }
-
-    async function loadCards() {
-        const response = await fetch("getDrunkMessages.json");
-        cardMessages = await response.json();
-
-        console.log(cardMessages.length); // Should be 500
-        socket.emit("next-card");
     }
 
 
