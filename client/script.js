@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
         lobbyScreen.style.display = "block";
     });
 
+
     socket.on("game-started", () => {
         console.log("Game started!");
         lobbyScreen.style.display = "none";
@@ -352,10 +353,8 @@ document.addEventListener("DOMContentLoaded", () => {
     /*
     TODO: 
 
-    Implement socket.io + node.js backend to add online multiplayer
     Implement Scoreboard for how many drinks someone has had
     Add selfie option to all players in the lobby
-    Add card rotation system to order players
     If you get a card with category 'pass', create dropdown window to choose name
     Add pass and reverse categories for cards with conditional buttons
     Add 'Use safe card' button
@@ -364,12 +363,12 @@ document.addEventListener("DOMContentLoaded", () => {
     Add event box to see what special cards players have used.
     Add title for the room
     Allow hosts to create their own passwords
-    Add KICK PLAYER FROM LOBBY
     Move player functionality when creating table layout - only allow host to move
     Up to 20 players in a lobby
     Concept art that matches young adult demographic
+    Remove 500 cards and instead add funnier cards along with generic stuff. Do 500 anyway
+    Add functionality to show lobby list in Home page instead of joining lobby with code
     Make some kind of public and private lobby functionality so people can see open rooms
-
 
     COMPLETED:
     Implement a restart game button - done
@@ -377,7 +376,9 @@ document.addEventListener("DOMContentLoaded", () => {
     Implement logic so that if spanish is selected, all cards appear as spanish for that player. - done
     Implement SAVED CARDS section at bottom of screen - players can draw a saved card at any time - done 
     Implement functionality to click 'OK' button on the card on screen before continuing. - done
-
+    Add KICK PLAYER FROM LOBBY
+    Implement socket.io + node.js backend to add online multiplayer
+    Add card rotation system to order players 
 
     Deploy application
     */
